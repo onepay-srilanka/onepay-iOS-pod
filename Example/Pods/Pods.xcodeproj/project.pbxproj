@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA6622D5EE04EF88F55DE06A2915451 /* Pods-OnepayIPG_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */; };
+		40ABF81A5851A1C64FB3AF41C2739819 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71420B9DCD8E2BA58A3943F64875F2F3 /* ReplaceMe.swift */; };
+		6049AFFF016A1CA89E1EFEC21CBB6F75 /* OnepayIPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E82DF78AAFD6DBB8E74E6E0D4A0E15 /* OnepayIPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EA0D07F185A53C2D4BE84D2F352754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7BD1AD5523207BD6D4152768641B18E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8971CBEB2F708F55DCE7F004CD09EDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8BC215734663C1C31D2709B072DAB9BE /* Pods-OnepayIPG_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */; };
+		8CFD0835EFA7EC9EC9359A760F609CBB /* Pods-OnepayIPG_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1EDB7741675FA783E64BD9085E39BA /* OnepayIPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D2476D13FFFBD05108656C9CF57E6 /* OnepayIPG-dummy.m */; };
+		FCF77C3DCC31B561BC1F938FB0FC404F /* Pods-OnepayIPG_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		500E05F5FE9871154600AEEC8F0ACDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A79E3C1E2694A36DDFDEF1270515D9;
+			remoteInfo = OnepayIPG;
+		};
+		7511D7250E36D55D538867DA04CDEF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654970528F0A17A844BD1E147B10B8DB;
+			remoteInfo = "Pods-OnepayIPG_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Tests-dummy.m"; sourceTree = "<group>"; };
+		11A7D1B8FFC4841E65E68CBF41BCAF6D /* OnepayIPG.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OnepayIPG.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Example-dummy.m"; sourceTree = "<group>"; };
+		1840C4B4F51DD9D1603BFF942F5EA2C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		186D2476D13FFFBD05108656C9CF57E6 /* OnepayIPG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnepayIPG-dummy.m"; sourceTree = "<group>"; };
+		1F171DF22B2D4E5D737BFCB502B8D227 /* Pods-OnepayIPG_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-Info.plist"; sourceTree = "<group>"; };
+		27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnepayIPG.framework; path = OnepayIPG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3112F16F79BEA7C419C2D77DECF63B76 /* OnepayIPG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnepayIPG.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		327A4CDC42426AC0D5D01C74EDE5F5C5 /* Pods-OnepayIPG_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnepayIPG_Example-frameworks.sh"; sourceTree = "<group>"; };
+		403737E6C06DD315AEDF0DC0DDFAAACF /* Pods-OnepayIPG_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4391C88E84EB8E7CDF7F01AAA6AE3316 /* Pods-OnepayIPG_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Tests.modulemap"; sourceTree = "<group>"; };
+		52E83AFB95DDB6A1744FF92BDDEB4602 /* OnepayIPG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnepayIPG-Info.plist"; sourceTree = "<group>"; };
+		54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		63A80E2C6BF538235B8535F099F25969 /* Pods-OnepayIPG_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Example.modulemap"; sourceTree = "<group>"; };
+		64803FE62B265B133B1CBDDF04C2FA18 /* OnepayIPG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-prefix.pch"; sourceTree = "<group>"; };
+		666872BFFB435D0269C75ABEE91CF8B4 /* Pods-OnepayIPG_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-Info.plist"; sourceTree = "<group>"; };
+		71420B9DCD8E2BA58A3943F64875F2F3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OnepayIPG/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		824007963EDEF6600D04C5EBC46A4BD9 /* Pods-OnepayIPG_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DB2A6DB2717796639534F6BA754C4E2 /* Pods-OnepayIPG_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnepayIPG_Example.framework; path = "Pods-OnepayIPG_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1AA125696F6F2B71E3356C10B226BA /* Pods-OnepayIPG_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CFEDD01E5D2F187851F25B92658122D /* OnepayIPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E82DF78AAFD6DBB8E74E6E0D4A0E15 /* OnepayIPG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-umbrella.h"; sourceTree = "<group>"; };
+		AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnepayIPG_Tests.framework; path = "Pods-OnepayIPG_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BD17FAFF428E6EAAC925DB9CB02A52B8 /* Pods-OnepayIPG_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD122A3AF396B7191AFDD0970CF094CB /* OnepayIPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.release.xcconfig; sourceTree = "<group>"; };
+		F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Example-umbrella.h"; sourceTree = "<group>"; };
+		FBE6D2E243876403BEBA3F8F86B78BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FFEA85BDCFA1977AB18ECA735BC603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD1AD5523207BD6D4152768641B18E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8FCC4A791AE6C497A4B8E6CC722B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8971CBEB2F708F55DCE7F004CD09EDF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708372F3CFEA0114926BAB420356718D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EA0D07F185A53C2D4BE84D2F352754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09482E4BB15872632E0F7C52840A3A78 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B12FEA9C6D76C5C86081482F3D6F336 /* OnepayIPG */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3EF3A8982B8C0B0483FCBE41CD277F3F /* Pods-OnepayIPG_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4391C88E84EB8E7CDF7F01AAA6AE3316 /* Pods-OnepayIPG_Tests.modulemap */,
+				824007963EDEF6600D04C5EBC46A4BD9 /* Pods-OnepayIPG_Tests-acknowledgements.markdown */,
+				403737E6C06DD315AEDF0DC0DDFAAACF /* Pods-OnepayIPG_Tests-acknowledgements.plist */,
+				01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */,
+				1F171DF22B2D4E5D737BFCB502B8D227 /* Pods-OnepayIPG_Tests-Info.plist */,
+				B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */,
+				9A1AA125696F6F2B71E3356C10B226BA /* Pods-OnepayIPG_Tests.debug.xcconfig */,
+				54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */,
+			);
+			name = "Pods-OnepayIPG_Tests";
+			path = "Target Support Files/Pods-OnepayIPG_Tests";
+			sourceTree = "<group>";
+		};
+		56C5012F0CFF0F44CF9A1F9C31F5854E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3112F16F79BEA7C419C2D77DECF63B76 /* OnepayIPG.modulemap */,
+				186D2476D13FFFBD05108656C9CF57E6 /* OnepayIPG-dummy.m */,
+				52E83AFB95DDB6A1744FF92BDDEB4602 /* OnepayIPG-Info.plist */,
+				64803FE62B265B133B1CBDDF04C2FA18 /* OnepayIPG-prefix.pch */,
+				A2E82DF78AAFD6DBB8E74E6E0D4A0E15 /* OnepayIPG-umbrella.h */,
+				9CFEDD01E5D2F187851F25B92658122D /* OnepayIPG.debug.xcconfig */,
+				DD122A3AF396B7191AFDD0970CF094CB /* OnepayIPG.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OnepayIPG";
+			sourceTree = "<group>";
+		};
+		95507BA0E59E31EF2FC4DE9C8607993F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */,
+				90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */,
+				AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B12FEA9C6D76C5C86081482F3D6F336 /* OnepayIPG */ = {
+			isa = PBXGroup;
+			children = (
+				71420B9DCD8E2BA58A3943F64875F2F3 /* ReplaceMe.swift */,
+				A13048853884A7D9EBC6E2DE8CC8DFD5 /* Pod */,
+				56C5012F0CFF0F44CF9A1F9C31F5854E /* Support Files */,
+			);
+			name = OnepayIPG;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A13048853884A7D9EBC6E2DE8CC8DFD5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FBE6D2E243876403BEBA3F8F86B78BFE /* LICENSE */,
+				11A7D1B8FFC4841E65E68CBF41BCAF6D /* OnepayIPG.podspec */,
+				1840C4B4F51DD9D1603BFF942F5EA2C1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				09482E4BB15872632E0F7C52840A3A78 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				95507BA0E59E31EF2FC4DE9C8607993F /* Products */,
+				F58382D43DD138B5CA6071B3AA10BA0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F58382D43DD138B5CA6071B3AA10BA0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCDFA43F298435893182F3B547EE8E72 /* Pods-OnepayIPG_Example */,
+				3EF3A8982B8C0B0483FCBE41CD277F3F /* Pods-OnepayIPG_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCDFA43F298435893182F3B547EE8E72 /* Pods-OnepayIPG_Example */ = {
+			isa = PBXGroup;
+			children = (
+				63A80E2C6BF538235B8535F099F25969 /* Pods-OnepayIPG_Example.modulemap */,
+				8DB2A6DB2717796639534F6BA754C4E2 /* Pods-OnepayIPG_Example-acknowledgements.markdown */,
+				BD17FAFF428E6EAAC925DB9CB02A52B8 /* Pods-OnepayIPG_Example-acknowledgements.plist */,
+				135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */,
+				327A4CDC42426AC0D5D01C74EDE5F5C5 /* Pods-OnepayIPG_Example-frameworks.sh */,
+				666872BFFB435D0269C75ABEE91CF8B4 /* Pods-OnepayIPG_Example-Info.plist */,
+				F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */,
+				D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */,
+				C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */,
+			);
+			name = "Pods-OnepayIPG_Example";
+			path = "Target Support Files/Pods-OnepayIPG_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3698190DF071A1AD956B632034B9DFDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFD0835EFA7EC9EC9359A760F609CBB /* Pods-OnepayIPG_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8799565DF6A472714750412F106EC3C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF77C3DCC31B561BC1F938FB0FC404F /* Pods-OnepayIPG_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2DD435586451A18D6B9AC50876459A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6049AFFF016A1CA89E1EFEC21CBB6F75 /* OnepayIPG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22B23E22484E83C9E0D4E401469C1480 /* Pods-OnepayIPG_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21663558B84AB171795DBDB49DF0A85 /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Tests" */;
+			buildPhases = (
+				3698190DF071A1AD956B632034B9DFDC /* Headers */,
+				AF72648F1DCFD006A08A6D9977D61B1B /* Sources */,
+				708372F3CFEA0114926BAB420356718D /* Frameworks */,
+				B9EE3426055817300DEAB66F1E8E65C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73DD00390F3A8239188BCC1BE91DA0B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-OnepayIPG_Tests";
+			productName = "Pods-OnepayIPG_Tests";
+			productReference = AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87ED4B71FCF1B076FCDA9E60B86E41C /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */;
+			buildPhases = (
+				8799565DF6A472714750412F106EC3C0 /* Headers */,
+				A1B2A1F2254E2F12534F4F3B6AE02A23 /* Sources */,
+				53FFEA85BDCFA1977AB18ECA735BC603 /* Frameworks */,
+				4A59A62E60F77E5718E29197B94406AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A82178128A87AEDB38D675F3C2B498 /* PBXTargetDependency */,
+			);
+			name = "Pods-OnepayIPG_Example";
+			productName = "Pods-OnepayIPG_Example";
+			productReference = 90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB7F480A3A37F0BBB0587EBD98ED93 /* Build configuration list for PBXNativeTarget "OnepayIPG" */;
+			buildPhases = (
+				FB2DD435586451A18D6B9AC50876459A /* Headers */,
+				1271B8A69F38ECDE6309C739E5F2B25D /* Sources */,
+				6D8FCC4A791AE6C497A4B8E6CC722B1C /* Frameworks */,
+				7C92A86EBD1754F6044EF9197EC55569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnepayIPG;
+			productName = OnepayIPG;
+			productReference = 27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 95507BA0E59E31EF2FC4DE9C8607993F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */,
+				654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */,
+				22B23E22484E83C9E0D4E401469C1480 /* Pods-OnepayIPG_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A59A62E60F77E5718E29197B94406AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C92A86EBD1754F6044EF9197EC55569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE3426055817300DEAB66F1E8E65C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1271B8A69F38ECDE6309C739E5F2B25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1EDB7741675FA783E64BD9085E39BA /* OnepayIPG-dummy.m in Sources */,
+				40ABF81A5851A1C64FB3AF41C2739819 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2A1F2254E2F12534F4F3B6AE02A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA6622D5EE04EF88F55DE06A2915451 /* Pods-OnepayIPG_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72648F1DCFD006A08A6D9977D61B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC215734663C1C31D2709B072DAB9BE /* Pods-OnepayIPG_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A82178128A87AEDB38D675F3C2B498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OnepayIPG;
+			target = A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */;
+			targetProxy = 500E05F5FE9871154600AEEC8F0ACDEB /* PBXContainerItemProxy */;
+		};
+		73DD00390F3A8239188BCC1BE91DA0B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OnepayIPG_Example";
+			target = 654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */;
+			targetProxy = 7511D7250E36D55D538867DA04CDEF87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B3876183BF8B00E0E2E8E094A1165C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C02152B7581A886B221120CF71B557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643EA8A441CC5874C7918C7175B62770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78310377F2B0A1E7888DB64B76DA6521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1AA125696F6F2B71E3356C10B226BA /* Pods-OnepayIPG_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FD15591F8E0065614FD8F5516684A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFEDD01E5D2F187851F25B92658122D /* OnepayIPG.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E859833BA4F9276DF694B0F8559C8B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD122A3AF396B7191AFDD0970CF094CB /* OnepayIPG.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BB7F480A3A37F0BBB0587EBD98ED93 /* Build configuration list for PBXNativeTarget "OnepayIPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD15591F8E0065614FD8F5516684A94 /* Debug */,
+				E859833BA4F9276DF694B0F8559C8B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87ED4B71FCF1B076FCDA9E60B86E41C /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C02152B7581A886B221120CF71B557B /* Debug */,
+				643EA8A441CC5874C7918C7175B62770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21663558B84AB171795DBDB49DF0A85 /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78310377F2B0A1E7888DB64B76DA6521 /* Debug */,
+				2B3876183BF8B00E0E2E8E094A1165C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

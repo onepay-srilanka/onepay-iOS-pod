@@ -1,0 +1,6 @@
+framework module OnepayIPG {
+  umbrella header "OnepayIPG-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E06D444E57F18547C8C3082 /* OnepayIPG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OnepayIPG.podspec; path = ../OnepayIPG.podspec; sourceTree = "<group>"; };
+		4E06D444E57F18547C8C3082 /* OnepayIPG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OnepayIPG.podspec; path = ../OnepayIPG.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* OnepayIPG_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnepayIPG_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		66BC7C9B878D9AEF15CB4170 /* Pods_OnepayIPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		781CB78DF7594A5DDBE103EF /* Pods-OnepayIPG_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnepayIPG_Example.release.xcconfig"; path = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BEE3B26FB009C5975D0A51E /* Pods-OnepayIPG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnepayIPG_Tests.release.xcconfig"; path = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C64690A1A6F55984B8DB3FB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C64690A1A6F55984B8DB3FB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CE9BF4AC1EECDFDA25E5F4CD /* Pods_OnepayIPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02DD2BFEB3514706D110B33 /* Pods-OnepayIPG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnepayIPG_Example.debug.xcconfig"; path = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2DB71B0EB06E40C7C5CB0C /* Pods-OnepayIPG_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnepayIPG_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OnepayIPG_Tests/Pods-OnepayIPG_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFE8EB0FD9DBFF0586B6208A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFE8EB0FD9DBFF0586B6208A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				DE2DB71B0EB06E40C7C5CB0C /* Pods-OnepayIPG_Tests.debug.xcconfig */,
 				9BEE3B26FB009C5975D0A51E /* Pods-OnepayIPG_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - OnepayIPG (0.1.0)
+
+DEPENDENCIES:
+  - OnepayIPG (from `../`)
+
+EXTERNAL SOURCES:
+  OnepayIPG:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OnepayIPG: 658f8c0eaf4eb699d36490160040768ef6428a68
+
+PODFILE CHECKSUM: 8921c7538c8affdc55619fff8f9b5efd77caba25
+
+COCOAPODS: 1.9.3
