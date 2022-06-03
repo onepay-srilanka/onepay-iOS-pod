@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OnepayIPG'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OnepayIPG.'
+  s.summary          = 'iOS app for onepay payment gateway'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Udaya/OnepayIPG'
+  s.homepage         = 'https://github.com/onepay-srilanka/ipgios.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Udaya' => 'udaya.kahandawala@spemai.com' }
-  s.source           = { :git => 'https://github.com/Udaya/OnepayIPG.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'onepay' => 'info@spemai.com' }
+  s.source           = { :git => 'https://github.com/onepay-srilanka/ipgios.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/onepaylk'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'OnepayIPG/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.0"
+  }
+  
+  
+  s.resources = "Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf}"
   # s.resource_bundles = {
   #   'OnepayIPG' => ['OnepayIPG/Assets/*.png']
   # }
