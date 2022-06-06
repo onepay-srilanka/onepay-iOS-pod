@@ -9,6 +9,9 @@ import UIKit
 
 class FrimiVC: UIViewController {
 
+    
+    var delegate: OnepayIPGDelegate? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

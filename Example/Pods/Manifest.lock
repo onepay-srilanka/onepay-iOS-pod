@@ -1,16 +1,24 @@
 PODS:
-  - OnepayIPG (0.1.0)
+  - Alamofire (4.9.1)
+  - OnepayIPG (0.1.0):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - OnepayIPG (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   OnepayIPG:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OnepayIPG: 658f8c0eaf4eb699d36490160040768ef6428a68
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  OnepayIPG: bca6e3f5862a16cf43c06d274e4cb62095b6050a
 
-PODFILE CHECKSUM: 8921c7538c8affdc55619fff8f9b5efd77caba25
+PODFILE CHECKSUM: 0670c3c3709a26d3e5577e42391eba9ee8adcf92
 
 COCOAPODS: 1.9.3

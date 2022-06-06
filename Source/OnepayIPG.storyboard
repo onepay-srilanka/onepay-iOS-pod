@@ -18,6 +18,9 @@
         <array key="Poppins-Regular.ttf">
             <string>Poppins-Regular</string>
         </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--MainPVC-->
@@ -31,7 +34,7 @@
         <!--Gateway MainVC-->
         <scene sceneID="vrQ-OT-XC1">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="d4N-gm-lOg" customClass="GatewayMainVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GatewayMainVC" modalPresentationStyle="fullScreen" id="d4N-gm-lOg" customClass="GatewayMainVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hs4-1A-gLA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +69,26 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="38P-jt-qdp">
                                 <rect key="frame" x="0.0" y="223" width="414" height="52"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HF7-yd-1bc">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkm-92-Jjf">
+                                        <rect key="frame" x="36" y="4" width="148" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa / Master" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-6y-1Kl">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="44"/>
+                                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.90588235294117647" green="0.92549019607843142" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="148" id="BUM-1i-bxv"/>
+                                            <constraint firstItem="mCk-6y-1Kl" firstAttribute="top" secondItem="zkm-92-Jjf" secondAttribute="top" id="TEP-eX-xvl"/>
+                                            <constraint firstAttribute="bottom" secondItem="mCk-6y-1Kl" secondAttribute="bottom" id="gwZ-f8-aLr"/>
+                                            <constraint firstAttribute="trailing" secondItem="mCk-6y-1Kl" secondAttribute="trailing" id="uS0-3g-Gc6"/>
+                                            <constraint firstItem="mCk-6y-1Kl" firstAttribute="leading" secondItem="zkm-92-Jjf" secondAttribute="leading" id="vlQ-bz-Uaw"/>
+                                        </constraints>
+                                    </view>
+                                    <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HF7-yd-1bc">
                                         <rect key="frame" x="36" y="4" width="342" height="44"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GiN-Xs-0qa">
@@ -80,9 +102,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zkm-92-Jjf" secondAttribute="bottom" constant="4" id="0CY-oZ-heD"/>
                                     <constraint firstItem="HF7-yd-1bc" firstAttribute="leading" secondItem="38P-jt-qdp" secondAttribute="leading" constant="36" id="S4z-Bb-6id"/>
+                                    <constraint firstItem="zkm-92-Jjf" firstAttribute="top" secondItem="38P-jt-qdp" secondAttribute="top" constant="4" id="Wh6-er-Qac"/>
                                     <constraint firstAttribute="trailing" secondItem="HF7-yd-1bc" secondAttribute="trailing" constant="36" id="Z3i-pe-13R"/>
                                     <constraint firstAttribute="height" constant="52" id="bhz-s9-Sr0"/>
+                                    <constraint firstItem="zkm-92-Jjf" firstAttribute="leading" secondItem="38P-jt-qdp" secondAttribute="leading" constant="36" id="o1b-82-acS"/>
                                     <constraint firstItem="HF7-yd-1bc" firstAttribute="top" secondItem="38P-jt-qdp" secondAttribute="top" constant="4" id="obC-0x-2j5"/>
                                     <constraint firstAttribute="bottom" secondItem="HF7-yd-1bc" secondAttribute="bottom" constant="4" id="wdv-Qp-ftI"/>
                                 </constraints>
@@ -130,6 +155,9 @@
                             <constraint firstItem="rfE-Wq-Fiv" firstAttribute="top" secondItem="uur-9u-hTB" secondAttribute="bottom" constant="8" id="zwl-Mr-tJT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="viewVisaMaster" destination="zkm-92-Jjf" id="8nP-bu-vkO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fd-6X-IVZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,7 +166,7 @@
         <!--Visa MasterVC-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="VMViewController" id="Y6W-OH-hqX" customClass="VisaMasterVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VisaMasterOption" id="Y6W-OH-hqX" customClass="VisaMasterVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,14 +189,18 @@
                                                         <color key="textColor" red="0.1764705882352941" green="0.21568627450980393" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BrU-6z-GjP">
+                                                    <textField opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BrU-6z-GjP">
                                                         <rect key="frame" x="0.0" y="22.5" width="342" height="37"/>
                                                         <color key="backgroundColor" red="0.96862745098039216" green="0.98039215686274506" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="37" id="fh2-kA-0lL"/>
                                                         </constraints>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="Y6W-OH-hqX" id="X4K-6f-2gN"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -200,8 +232,12 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="37" id="CQZ-Pf-GBe"/>
                                                         </constraints>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="Y6W-OH-hqX" id="R5S-7c-zQ7"/>
+                                                        </connections>
                                                     </textField>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="diB-H9-ldB">
                                                         <rect key="frame" x="298" y="31" width="36" height="20"/>
@@ -239,14 +275,18 @@
                                                                 <color key="textColor" red="0.1764705882" green="0.2156862745" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9i-cK-ExV">
+                                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9i-cK-ExV">
                                                                 <rect key="frame" x="0.0" y="22.5" width="165.5" height="37"/>
                                                                 <color key="backgroundColor" red="0.96862745100000003" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="37" id="bbr-ad-ZHM"/>
                                                                 </constraints>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                <connections>
+                                                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="P4R-Wk-GTg"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -272,14 +312,18 @@
                                                                 <color key="textColor" red="0.1764705882" green="0.2156862745" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VCq-E1-Dnx">
+                                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VCq-E1-Dnx">
                                                                 <rect key="frame" x="0.0" y="22.5" width="165.5" height="37"/>
                                                                 <color key="backgroundColor" red="0.96862745100000003" green="0.98039215690000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="37" id="5I0-BM-0nU"/>
                                                                 </constraints>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                <connections>
+                                                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="5gi-cP-yGH"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -304,6 +348,9 @@
                                                 <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Pay"/>
+                                                <connections>
+                                                    <action selector="tappedOnPay:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fyZ-tE-Zyf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274510000002" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -343,6 +390,7 @@
                     </view>
                     <connections>
                         <outlet property="btPay" destination="D6n-cF-von" id="LXI-BX-jWk"/>
+                        <outlet property="imgCardType" destination="diB-H9-ldB" id="90d-Ld-TW7"/>
                         <outlet property="txtFieldCVV" destination="K9i-cK-ExV" id="KqF-Q0-cpw"/>
                         <outlet property="txtFieldCardNumber" destination="WLg-7s-85F" id="xxp-qp-Unj"/>
                         <outlet property="txtFieldDate" destination="VCq-E1-Dnx" id="Wtn-xh-F7E"/>
@@ -356,19 +404,20 @@
         <!--FrimiVC-->
         <scene sceneID="VlT-56-EfC">
             <objects>
-                <viewController storyboardIdentifier="FrimiViewController" id="j5l-yC-aA0" customClass="FrimiVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FrimiOption" id="j5l-yC-aA0" customClass="FrimiVC" customModule="OnepayIPG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mXd-B1-x9E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-Gy-aYr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-Gy-aYr">
                                 <rect key="frame" x="173.5" y="144" width="67" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="AdR-8c-iYB"/>
                                     <constraint firstAttribute="width" constant="67" id="jws-dU-KFK"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R92-kS-7fL"/>

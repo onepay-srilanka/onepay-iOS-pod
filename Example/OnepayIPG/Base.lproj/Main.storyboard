@@ -24,7 +24,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="Rbq-RJ-hOQ" kind="show" id="BRz-GQ-RGA"/>
+                                    <action selector="startOnepayIPG:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ebG-XB-FEj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,16 +38,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-17" y="113"/>
-        </scene>
-        <!--Gateway-->
-        <scene sceneID="bd2-eX-015">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Gateway" bundleIdentifier="org.cocoapods.OnepayIPG" id="Rbq-RJ-hOQ" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ayZ-v8-AB2"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L5s-Tm-PPe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="865" y="174"/>
         </scene>
     </scenes>
 </document>

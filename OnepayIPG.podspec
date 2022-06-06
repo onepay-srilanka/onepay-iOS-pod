@@ -39,6 +39,8 @@ TODO: Add long description of the pod here.
   
   
   s.resources = "Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf}"
+  s.dependency 'Alamofire'
+  
   # s.resource_bundles = {
   #   'OnepayIPG' => ['OnepayIPG/Assets/*.png']
   # }

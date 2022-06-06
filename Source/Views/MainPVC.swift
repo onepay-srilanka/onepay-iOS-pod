@@ -9,17 +9,19 @@ import UIKit
 
 class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
     
-    
+    //MARK: - PageContollerVC Variables
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            newViewController(name: "VM"),
-            newViewController(name: "Frimi")]
+            newViewController(ipgOption: PaymentOptions.optionOne),
+            newViewController(ipgOption: PaymentOptions.optionTwo)
+        ]
     }()
+    var onepayIPGDelegate: OnepayIPGDelegate? = nil
+    var keyboardNotificationDelegate: KeyboardManagementDelegate? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        dataSource = self
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
                                direction: .forward,
@@ -28,17 +30,31 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
         }
     }
    
-    private func newViewController(name: String) -> UIViewController {
+    private func newViewController(ipgOption: PaymentOptions) -> UIViewController {
         
         let bundle = Bundle(for: MainPVC.self)
-        return UIStoryboard(name: "Gateway", bundle: bundle) .
-        instantiateViewController(withIdentifier: "\(name)ViewController")
+        
+        switch ipgOption {
+        case .optionOne:
+            
+            let vc = UIStoryboard(name: Constant.MainStoryboard, bundle: bundle) .
+            instantiateViewController(withIdentifier: ipgOption.rawValue) as! VisaMasterVC
+            vc.keyboardNotificationdelegate = keyboardNotificationDelegate
+            vc.delegate = self.onepayIPGDelegate
+            return vc
+        case .optionTwo:
+            
+            let vc = UIStoryboard(name: Constant.MainStoryboard, bundle: bundle) .
+            instantiateViewController(withIdentifier: ipgOption.rawValue) as! FrimiVC
+            vc.delegate = self.onepayIPGDelegate
+            return vc
+        }
     }
     
-    
+
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = orderedViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = orderedViewControllers.firstIndex(of: viewController) else {
                    return nil
                }
                
@@ -57,7 +73,7 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = orderedViewControllers.index(of: viewController) else {
+        guard let viewControllerIndex = orderedViewControllers.firstIndex(of: viewController) else {
                     return nil
                 }
                 
@@ -72,4 +88,6 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
                 
                 return orderedViewControllers[nextIndex]
     }
+    
+   
 }

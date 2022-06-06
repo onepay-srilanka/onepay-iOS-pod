@@ -7,19 +7,34 @@
 
 import UIKit
 
+
 class VisaMasterVC: UIViewController {
 
     
     @IBOutlet weak var txtFieldName: UITextField!
     @IBOutlet weak var txtFieldCardNumber: UITextField!
+    @IBOutlet weak var imgCardType: UIImageView!
     @IBOutlet weak var txtFieldCVV: UITextField!
     @IBOutlet weak var txtFieldDate: UITextField!
     @IBOutlet weak var btPay: UIButton!
     
+    var delegate: OnepayIPGDelegate? = nil
+    var keyboardNotificationdelegate: KeyboardManagementDelegate? = nil
+    internal var selectedCardType: String? {
+        didSet{
+            reformatAsCardNumber(textField: txtFieldCardNumber)
+        }
+    }
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
 
+        keyboardNotification()
         setUpView()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     private func setUpView(){
@@ -46,10 +61,39 @@ class VisaMasterVC: UIViewController {
         txtFieldDate.layer.borderColor = UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1).cgColor
         txtFieldDate.attributedPlaceholder = getAttributedPlaceholder(placeholder: "DD/MM")
         txtFieldDate.layer.cornerRadius = 6
+        
+        txtFieldDate.addTarget(self, action: #selector(self.validateExpireDate(textField:)), for: .editingChanged)
+        
+        txtFieldCVV.addTarget(self, action: #selector(self.validateCVC(textField:)), for: .editingChanged)
+        
+        txtFieldCardNumber.addTarget(self, action: #selector(self.reformatAsCardNumber(textField:)), for: .editingChanged)
     }
     
     private func getAttributedPlaceholder(placeholder: String) -> NSAttributedString {
         
        return NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor:  UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1)] )
+    }
+    
+    @IBAction func tappedOnPay(_ sender: Any) {
+        
+        delegate?.onPaymentSuccess()
+    }
+
+    
+    @objc func keyboardWillShow(sender: NSNotification) {
+        
+        keyboardNotificationdelegate?.onKeyboardWillShow()
+    }
+    
+    @objc func keyboardWillHide(sender: NSNotification) {
+        
+        keyboardNotificationdelegate?.onKeyboardWillHide()
+    }
+    
+   private func keyboardNotification () {
+       
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(sender:)), name: UIResponder.keyboardWillShowNotification, object: nil);
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(sender:)), name: UIResponder.keyboardWillHideNotification, object: nil);
     }
 }
