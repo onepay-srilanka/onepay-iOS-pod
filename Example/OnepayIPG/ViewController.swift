@@ -23,6 +23,8 @@ class ViewController: UIViewController, OnepayIPGDelegate {
         let frameworkBundle = Bundle(for: GatewayMainVC.self)
         let storyBoard = UIStoryboard(name: GatewayMainVC.CONTAINS_STORYBOARD, bundle: frameworkBundle)
         let mainVC = storyBoard.instantiateViewController(withIdentifier: GatewayMainVC.MAINGATEWAY) as! GatewayMainVC
+        let initData = IPGInit(firstName: "", lastName: "", phone: "", reference: "", appID: "", email: "", hashKey: "", amount: 0.0 , currency: CurrencyTypes.LKR)
+        mainVC.setInitData(ipgInitData: initData)
         mainVC.setIPGDelegate(onepayIPGDelegate: self)
         self.present(mainVC, animated: true)
          

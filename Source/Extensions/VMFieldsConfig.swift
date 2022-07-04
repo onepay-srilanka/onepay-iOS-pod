@@ -145,22 +145,28 @@ extension VisaMasterVC: UITextFieldDelegate{
         
         if enteredYear > currentYear {
             if (1 ... 12).contains(enteredMonth) {
-                print("Entered Date Is Right")
+                
+                isValidExpireDate = true
             } else {
-                print("Entered Date Is Wrong")
+               
+                isValidExpireDate = false
             }
         } else if currentYear == enteredYear {
             if enteredMonth >= currentMonth {
                 if (1 ... 12).contains(enteredMonth) {
-                    print("Entered Date Is Right")
+                   
+                    isValidExpireDate = true
                 } else {
-                    print("Entered Date Is Wrong")
+                    
+                    isValidExpireDate = false
                 }
             } else {
-                print("Entered Date Is Wrong")
+               
+                isValidExpireDate = false
             }
         } else {
-            print("Entered Date Is Wrong")
+            
+            isValidExpireDate = false
         }
     }
 }

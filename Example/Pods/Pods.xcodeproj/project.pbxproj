@@ -7,161 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09BAACB8F516EFE0D52A10D882CF9EC6 /* VisaMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C415AD85F0BF50E224DEAB3897AAE /* VisaMasterVC.swift */; };
+		06CC07D16CE10FA69DE62FF39BAF84F6 /* OnepayIPGDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78418510F3F6006AE798DAE85E81A2 /* OnepayIPGDelegate.swift */; };
+		0A2295C4F5E9846F3AFBFDF8AE1450F3 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7EEE601D3376C258038A8E96C100E5D /* Poppins-Light.ttf */; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */; };
-		1338B67268331B385C82BF0221D2F91B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB969A555ECEBC03279B25F855AF37 /* Constant.swift */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */; };
-		1AEE0C6C8850B4ACF1B8E01829803CF7 /* MainPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6054A901D0FB82DF56833FAA5A53D3E /* MainPVC.swift */; };
-		1F7F8E6642E56C7C628918F83063D974 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
+		21109FE7362B13DC96BF6E5273819E6A /* PaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA056E16822E94F405CAF91C48099A5C /* PaymentOptions.swift */; };
+		29E0BB3043DD685F6FDE9DFEEE3CAA66 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6060BA6EA9E226C24BBDDDEC9D7C198 /* Inter-Regular.ttf */; };
+		2C0F3ACF399A8DC52C8D1B86AB3936F6 /* OnepayIPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02D94773C8434C715D1206302B1187 /* OnepayIPG-dummy.m */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */; };
-		33419F877BAC92830EA53A387066E324 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7047AE9BB00A8675C33ED9ED4453FDC /* Media.xcassets */; };
+		34F7EB3DAD52D56AB9F6C476B7DA9935 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80253A9D0630A4894890F4A01360F4C8 /* Poppins-Thin.ttf */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */; };
 		3583EE917F8566A235BE87667810002E /* Pods-OnepayIPG_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41EB24A95CD9528AA2E5ED781A662856 /* OnepayIPG.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B423899AE6A772019A47FAB755324C /* OnepayIPG.storyboard */; };
-		4A4D55AE70CAA896969B6B631C0F2059 /* GatewayMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B9F7AC86A6ED001C92EB48EC34B10 /* GatewayMainVC.swift */; };
+		4E55D4A96CA722F3B23CFADD20DAA3FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6485E4379999798D1B0746B3FB20022 /* Constant.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */; };
-		5795C681B75E4248F3A13ED67A6BB92B /* OnepayIPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8C3598D02A20ADDDEB14BBC09CE159 /* OnepayIPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53980D18AB456E946A9CEA75F2CF5388 /* VMFieldsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2858B1016DD6E6FF2ED899EF8243FD6 /* VMFieldsConfig.swift */; };
 		5F0E9EBF289BDD0490E25890F47EC2FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
 		61EA0D07F185A53C2D4BE84D2F352754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */; };
-		647DBBC8B5F6F2AAE5EDD7A959BF1E6B /* CardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69172ACD332B375EC5CB0F84FD9D543 /* CardFormatter.swift */; };
-		6A45B6F842E51B679B9E8678084EDE11 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEE30E9DB8E979C0E7B88CBA9A579A16 /* Poppins-Medium.ttf */; };
-		71D01F32A7F8251D5F7C7379E162BAFC /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C07CD39C620B7D4E74E38FC76EF6A5A9 /* Poppins-Thin.ttf */; };
+		74BF112C881B37C143F979CC33FF93CA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		7801A068313C36F9A9513C0247E66CF7 /* IPGErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020A0DFB6BAD41050BE6087545EFE9C /* IPGErrors.swift */; };
 		81EC6F5DCBDEAEE22A670256FB3B3B91 /* Pods-OnepayIPG_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63F367F44FC87833A1792B541781BB7 /* AFError.swift */; };
-		84AAF7DAB43A257EC696C490FA233C91 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C865B71AD605321A8043BB472F460C4C /* Poppins-Light.ttf */; };
-		84D476AAF49FA1764EF112835F019A76 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7DAA988B030BED2582DCED9B2FD7D46 /* Inter-Regular.ttf */; };
 		8BC215734663C1C31D2709B072DAB9BE /* Pods-OnepayIPG_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */; };
 		8CFD0835EFA7EC9EC9359A760F609CBB /* Pods-OnepayIPG_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3F4F1011789493720361780A1982D /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */; };
-		9A449EFCC82481E1EFD3DC83250D8E0A /* OnepayIPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F588699DFDFE709BD3E103E8378235 /* OnepayIPG-dummy.m */; };
-		A86F62F8A257B66E70580AB0014E9E5B /* VMFieldsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12AB8C21A2D712076B24DF6A016C2A /* VMFieldsConfig.swift */; };
-		A9C68DEFB92869FA31FA36BF5714CB47 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C69F8E9322364F70109240FD605CC46A /* Poppins-Regular.ttf */; };
+		9B5AA4E2C0566510B43213CF624DD8FA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37BE59F31787C3D5D0406D626A3CF7A1 /* Poppins-SemiBold.ttf */; };
+		A2912B08535310FC45570BE38EBB6304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		A319884DD6183112311C6A1CC39D6F7A /* IPGInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5EE1AF537B3783267CDD8C25CB33E /* IPGInit.swift */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */; };
-		B0F5BB3C3CBFD44CC7705DC4DAE682B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */; };
+		B023BAEEF8D6C1925EFE2F7785BD45A8 /* FrimiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788EDF467ADB7026C47D36BA7D3761BC /* FrimiVC.swift */; };
+		B37F0FBD33005701537521B7C54E794F /* VisaMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77443D21D70AC1F9E01B6669501BF763 /* VisaMasterVC.swift */; };
+		B553EFA661A89B73DB39F5BD826DA748 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 587664AFFEF89A5C4268A5CC6D80F5D3 /* Poppins-Regular.ttf */; };
+		BE577A3CFA477F8728378C16C1714D6F /* OnepayIPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D1736CFF85F22594A1EF3C7B1A085F /* OnepayIPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */; };
-		CA8E833B60FFD5DA3DF3C7F12216A005 /* OnepayIPGDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF7A596AE106A1EEDB24535A723342 /* OnepayIPGDelegate.swift */; };
+		CC1032808D5BC1D92B417F98E7B4A7BE /* GatewayMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE9D79330F79FBB5A2D727EFFD716 /* GatewayMainVC.swift */; };
+		CE503CE13265572573A3AEBA677CA693 /* CardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C18054CD26CAAC7C298F3DE448F1B2 /* CardFormatter.swift */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */; };
-		E04CECF44C4F60969E0A9F7AA8725734 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11DA22623B870D9E4B5C45D8C5BA8FFF /* Poppins-SemiBold.ttf */; };
+		DB6186DBB019EDB9742F952B863E28BA /* IPGCurrencyTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4DA82E8228974EB1CEFF11EFD94678 /* IPGCurrencyTypes.swift */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */; };
-		E563CB0338B1F901689AB6F895ECA8AD /* FrimiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50457435D7182B5CC2B33766F29110 /* FrimiVC.swift */; };
-		E7CC2EA2DE164B9E1CF7276DBBDE9273 /* PaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B59AB1558F5546D561F8AA55C416 /* PaymentOptions.swift */; };
+		EBE100E3B0AD58454D071F76A3BEB468 /* VisaMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B152D5A8F400C81C8D81559A6D983F /* VisaMasterViewModel.swift */; };
+		EEBF78918953363B62B117086B90A95E /* MainPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419CBE6CF7E9199A8C1F5B359EE4DED /* MainPVC.swift */; };
+		EF27331C28731D9500FEB954 /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27331B28731D9500FEB954 /* UtilityExtension.swift */; };
+		EF95F750C2EBCD8E0468883E818F883F /* OnepayIPG.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B29D2EF5241934E9A24162D663E2EA8 /* OnepayIPG.storyboard */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */; };
+		F1452E2FEA98D3466EF2B530625CD1ED /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC234F5C96D130042909DEFBFDA773D /* Poppins-Medium.ttf */; };
+		F3D6F894C9684B2D82830B726B6375B9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9A259515B09BF13B0CB8DB4865D17D /* Media.xcassets */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		502BB02CB0C599F28EB454D66516470A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		5379B1EACBA77805E16EE5587C4E8587 /* PBXContainerItemProxy */ = {
+		2CFA9E19900420DADD5EA46075360D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 654970528F0A17A844BD1E147B10B8DB;
 			remoteInfo = "Pods-OnepayIPG_Example";
 		};
-		715143ADE03D7F7A1B308C44C78AC203 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		DE7D4C0A1F0FA84EDC0C54B5531E54BF /* PBXContainerItemProxy */ = {
+		3EF2A238B1A21C82C4B40AC54BDDF81A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0A79E3C1E2694A36DDFDEF1270515D9;
 			remoteInfo = OnepayIPG;
 		};
+		67EFD31D5824F488B62597275723C671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		FF140D8598D8FF50D6EB56DB2AD4054F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009F3B9457242F0A94224E7AF5DFB1A3 /* OnepayIPG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-prefix.pch"; sourceTree = "<group>"; };
 		01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Tests-dummy.m"; sourceTree = "<group>"; };
 		0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		0D486875F75F90E5F6DD655050C276D2 /* OnepayIPG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-prefix.pch"; sourceTree = "<group>"; };
-		0E7C415AD85F0BF50E224DEAB3897AAE /* VisaMasterVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisaMasterVC.swift; sourceTree = "<group>"; };
-		11DA22623B870D9E4B5C45D8C5BA8FFF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Example-dummy.m"; sourceTree = "<group>"; };
-		1C3B9F7AC86A6ED001C92EB48EC34B10 /* GatewayMainVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GatewayMainVC.swift; sourceTree = "<group>"; };
 		1F171DF22B2D4E5D737BFCB502B8D227 /* Pods-OnepayIPG_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-Info.plist"; sourceTree = "<group>"; };
-		27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnepayIPG.framework; path = OnepayIPG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnepayIPG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		2D50457435D7182B5CC2B33766F29110 /* FrimiVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrimiVC.swift; sourceTree = "<group>"; };
 		2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		327A4CDC42426AC0D5D01C74EDE5F5C5 /* Pods-OnepayIPG_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnepayIPG_Example-frameworks.sh"; sourceTree = "<group>"; };
+		33A54BEC80BFFCEAA4BC9E7982FD04B5 /* OnepayIPG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnepayIPG.modulemap; sourceTree = "<group>"; };
+		37BE59F31787C3D5D0406D626A3CF7A1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3D720ED78A0A64655919EB55BA8D2F1E /* OnepayIPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.debug.xcconfig; sourceTree = "<group>"; };
 		3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		403737E6C06DD315AEDF0DC0DDFAAACF /* Pods-OnepayIPG_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4391C88E84EB8E7CDF7F01AAA6AE3316 /* Pods-OnepayIPG_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Tests.modulemap"; sourceTree = "<group>"; };
+		4419CBE6CF7E9199A8C1F5B359EE4DED /* MainPVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPVC.swift; sourceTree = "<group>"; };
+		45C18054CD26CAAC7C298F3DE448F1B2 /* CardFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardFormatter.swift; sourceTree = "<group>"; };
 		47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		578174FF47157D130C7793A41B8B8CD8 /* OnepayIPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.release.xcconfig; sourceTree = "<group>"; };
+		587664AFFEF89A5C4268A5CC6D80F5D3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		63A80E2C6BF538235B8535F099F25969 /* Pods-OnepayIPG_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Example.modulemap"; sourceTree = "<group>"; };
 		666872BFFB435D0269C75ABEE91CF8B4 /* Pods-OnepayIPG_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-Info.plist"; sourceTree = "<group>"; };
-		68DB969A555ECEBC03279B25F855AF37 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Source/Constant.swift; sourceTree = "<group>"; };
 		69DAB41DE6AF59D8362CBC670CDF0EEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E817D3FB5A95ED9FF22CE6BC316B3B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6FC234F5C96D130042909DEFBFDA773D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		75B152D5A8F400C81C8D81559A6D983F /* VisaMasterViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisaMasterViewModel.swift; sourceTree = "<group>"; };
+		77443D21D70AC1F9E01B6669501BF763 /* VisaMasterVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisaMasterVC.swift; sourceTree = "<group>"; };
+		788EDF467ADB7026C47D36BA7D3761BC /* FrimiVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrimiVC.swift; sourceTree = "<group>"; };
 		7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		80253A9D0630A4894890F4A01360F4C8 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		824007963EDEF6600D04C5EBC46A4BD9 /* Pods-OnepayIPG_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		8B7E059C1A10CDF7ACA459F9F90EE3B1 /* OnepayIPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.release.xcconfig; sourceTree = "<group>"; };
+		89D1736CFF85F22594A1EF3C7B1A085F /* OnepayIPG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-umbrella.h"; sourceTree = "<group>"; };
+		8B02D94773C8434C715D1206302B1187 /* OnepayIPG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnepayIPG-dummy.m"; sourceTree = "<group>"; };
+		8B29D2EF5241934E9A24162D663E2EA8 /* OnepayIPG.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = OnepayIPG.storyboard; path = Source/OnepayIPG.storyboard; sourceTree = "<group>"; };
 		8DB2A6DB2717796639534F6BA754C4E2 /* Pods-OnepayIPG_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnepayIPG_Example.framework; path = "Pods-OnepayIPG_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B80248B039090A739D00BFD5A0A62B /* OnepayIPG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnepayIPG.modulemap; sourceTree = "<group>"; };
-		9530BDCF223B2BD34A7D9FC529FA5D33 /* OnepayIPG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnepayIPG-Info.plist"; sourceTree = "<group>"; };
+		9020A0DFB6BAD41050BE6087545EFE9C /* IPGErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPGErrors.swift; sourceTree = "<group>"; };
+		90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D3F4F1011789493720361780A1982D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		9A1AA125696F6F2B71E3356C10B226BA /* Pods-OnepayIPG_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A63B59AB1558F5546D561F8AA55C416 /* PaymentOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentOptions.swift; path = Source/PaymentOptions.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2858B1016DD6E6FF2ED899EF8243FD6 /* VMFieldsConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VMFieldsConfig.swift; sourceTree = "<group>"; };
 		A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		A69172ACD332B375EC5CB0F84FD9D543 /* CardFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardFormatter.swift; sourceTree = "<group>"; };
-		A7047AE9BB00A8675C33ED9ED4453FDC /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Source/Media.xcassets; sourceTree = "<group>"; };
-		AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnepayIPG_Tests.framework; path = "Pods-OnepayIPG_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3A8780CF5000252783F56940AE06E2 /* OnepayIPG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnepayIPG-Info.plist"; sourceTree = "<group>"; };
+		AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		B2A2EA67A01CE03B2E10C98E92DABDE2 /* OnepayIPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.debug.xcconfig; sourceTree = "<group>"; };
+		B075A7158732D44ED4EAC33040D6A677 /* OnepayIPG.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OnepayIPG.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		BA056E16822E94F405CAF91C48099A5C /* PaymentOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentOptions.swift; path = Source/PaymentOptions.swift; sourceTree = "<group>"; };
+		BBD5EE1AF537B3783267CDD8C25CB33E /* IPGInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPGInit.swift; sourceTree = "<group>"; };
 		BD17FAFF428E6EAAC925DB9CB02A52B8 /* Pods-OnepayIPG_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C07CD39C620B7D4E74E38FC76EF6A5A9 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
-		C2B423899AE6A772019A47FAB755324C /* OnepayIPG.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = OnepayIPG.storyboard; path = Source/OnepayIPG.storyboard; sourceTree = "<group>"; };
+		BD7BE9D79330F79FBB5A2D727EFFD716 /* GatewayMainVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GatewayMainVC.swift; sourceTree = "<group>"; };
 		C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C69F8E9322364F70109240FD605CC46A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		C865B71AD605321A8043BB472F460C4C /* Poppins-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
-		CEE30E9DB8E979C0E7B88CBA9A579A16 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		CF9A259515B09BF13B0CB8DB4865D17D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Source/Media.xcassets; sourceTree = "<group>"; };
 		D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D6D0BED2AAC73E3BEE7F8EA13E81D5C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DD12AB8C21A2D712076B24DF6A016C2A /* VMFieldsConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VMFieldsConfig.swift; sourceTree = "<group>"; };
 		DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		DFDA0C14DBA8F22BCF3A66176E51594E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E6054A901D0FB82DF56833FAA5A53D3E /* MainPVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPVC.swift; sourceTree = "<group>"; };
+		E6060BA6EA9E226C24BBDDDEC9D7C198 /* Inter-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		E63F367F44FC87833A1792B541781BB7 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		E7DAA988B030BED2582DCED9B2FD7D46 /* Inter-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		E8F588699DFDFE709BD3E103E8378235 /* OnepayIPG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnepayIPG-dummy.m"; sourceTree = "<group>"; };
-		E9E8DCC3BAD5856A4515FB7BB6BF1F51 /* OnepayIPG.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OnepayIPG.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EEDF7A596AE106A1EEDB24535A723342 /* OnepayIPGDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnepayIPGDelegate.swift; path = Source/OnepayIPGDelegate.swift; sourceTree = "<group>"; };
+		EF27331B28731D9500FEB954 /* UtilityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
 		F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6485E4379999798D1B0746B3FB20022 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Source/Constant.swift; sourceTree = "<group>"; };
+		F7EEE601D3376C258038A8E96C100E5D /* Poppins-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		FD8C3598D02A20ADDDEB14BBC09CE159 /* OnepayIPG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-umbrella.h"; sourceTree = "<group>"; };
+		F9E9AE1B1127E7BB74B68A55CB94936E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE78418510F3F6006AE798DAE85E81A2 /* OnepayIPGDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnepayIPGDelegate.swift; path = Source/OnepayIPGDelegate.swift; sourceTree = "<group>"; };
+		FF4DA82E8228974EB1CEFF11EFD94678 /* IPGCurrencyTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPGCurrencyTypes.swift; sourceTree = "<group>"; };
 		FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,12 +184,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28B953A12C9BF0F88C8A83A8948568C0 /* Frameworks */ = {
+		3FD7D6F46BE0BF5FD0C2E9CC4BA73D89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7F8E6642E56C7C628918F83063D974 /* Alamofire.framework in Frameworks */,
-				B0F5BB3C3CBFD44CC7705DC4DAE682B9 /* Foundation.framework in Frameworks */,
+				74BF112C881B37C143F979CC33FF93CA /* Alamofire.framework in Frameworks */,
+				A2912B08535310FC45570BE38EBB6304 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +212,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FBB65EEA2AE46838DD25E73D11D40FD /* Development Pods */ = {
+		0E5007BE04DF9F866A64D60A4C0BEC7A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F737B254B59E7D8C265F172CCD368C81 /* OnepayIPG */,
+				A2858B1016DD6E6FF2ED899EF8243FD6 /* VMFieldsConfig.swift */,
+				EA5F516D70CC03A3681DB670862E58F4 /* Utility */,
 			);
-			name = "Development Pods";
+			name = Extensions;
+			path = Source/Extensions;
+			sourceTree = "<group>";
+		};
+		181C9278F42F73576843BEEBCEF7ADBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A259515B09BF13B0CB8DB4865D17D /* Media.xcassets */,
+				8B29D2EF5241934E9A24162D663E2EA8 /* OnepayIPG.storyboard */,
+				916381F9690B254F3EE3DD2F5314C088 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		269B00C1A4D94A3A0750C722868B1DD4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9AE1B1127E7BB74B68A55CB94936E /* LICENSE */,
+				B075A7158732D44ED4EAC33040D6A677 /* OnepayIPG.podspec */,
+				6E817D3FB5A95ED9FF22CE6BC316B3B3 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */ = {
@@ -217,16 +249,6 @@
 				DBBD239EB7C1C83EA80124D1A53485AB /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3E8A29C786A1C8EED8E7E88009068F86 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				DD12AB8C21A2D712076B24DF6A016C2A /* VMFieldsConfig.swift */,
-				E4A584CC9916DC63034DC6172934E662 /* Utility */,
-			);
-			name = Extensions;
-			path = Source/Extensions;
 			sourceTree = "<group>";
 		};
 		3EF3A8982B8C0B0483FCBE41CD277F3F /* Pods-OnepayIPG_Tests */ = {
@@ -245,6 +267,35 @@
 			path = "Target Support Files/Pods-OnepayIPG_Tests";
 			sourceTree = "<group>";
 		};
+		44D11438AB2BA0FAFEAE2DB3DFFF7BF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				788EDF467ADB7026C47D36BA7D3761BC /* FrimiVC.swift */,
+				BD7BE9D79330F79FBB5A2D727EFFD716 /* GatewayMainVC.swift */,
+				4419CBE6CF7E9199A8C1F5B359EE4DED /* MainPVC.swift */,
+				77443D21D70AC1F9E01B6669501BF763 /* VisaMasterVC.swift */,
+			);
+			name = Views;
+			path = Source/Views;
+			sourceTree = "<group>";
+		};
+		561E97A74F0D9FD3D2A73F0C1EEDF515 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75B152D5A8F400C81C8D81559A6D983F /* VisaMasterViewModel.swift */,
+			);
+			name = ViewModels;
+			path = Source/ViewModels;
+			sourceTree = "<group>";
+		};
+		653EE9FE342D6CD3F6EB7A22C539FDBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF867FBAA3B9033AE7AC0204A5E833B /* OnepayIPG */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7387D4399825E9EF773898F33492DBC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,14 +307,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B233FDA752AE61F54B1B3763B58BD1B /* Pod */ = {
+		7AF867FBAA3B9033AE7AC0204A5E833B /* OnepayIPG */ = {
 			isa = PBXGroup;
 			children = (
-				DFDA0C14DBA8F22BCF3A66176E51594E /* LICENSE */,
-				E9E8DCC3BAD5856A4515FB7BB6BF1F51 /* OnepayIPG.podspec */,
-				D6D0BED2AAC73E3BEE7F8EA13E81D5C0 /* README.md */,
+				F6485E4379999798D1B0746B3FB20022 /* Constant.swift */,
+				FE78418510F3F6006AE798DAE85E81A2 /* OnepayIPGDelegate.swift */,
+				BA056E16822E94F405CAF91C48099A5C /* PaymentOptions.swift */,
+				0E5007BE04DF9F866A64D60A4C0BEC7A /* Extensions */,
+				B01298D601511F46067460510473FD58 /* Models */,
+				269B00C1A4D94A3A0750C722868B1DD4 /* Pod */,
+				181C9278F42F73576843BEEBCEF7ADBB /* Resources */,
+				A932278200C3B6D283BCB1B586F765B7 /* Support Files */,
+				561E97A74F0D9FD3D2A73F0C1EEDF515 /* ViewModels */,
+				44D11438AB2BA0FAFEAE2DB3DFFF7BF7 /* Views */,
 			);
-			name = Pod;
+			name = OnepayIPG;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */ = {
@@ -289,41 +348,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9EBDDACFD75545EA57D29B3D77D11E6E /* Support Files */ = {
+		916381F9690B254F3EE3DD2F5314C088 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				94B80248B039090A739D00BFD5A0A62B /* OnepayIPG.modulemap */,
-				E8F588699DFDFE709BD3E103E8378235 /* OnepayIPG-dummy.m */,
-				9530BDCF223B2BD34A7D9FC529FA5D33 /* OnepayIPG-Info.plist */,
-				0D486875F75F90E5F6DD655050C276D2 /* OnepayIPG-prefix.pch */,
-				FD8C3598D02A20ADDDEB14BBC09CE159 /* OnepayIPG-umbrella.h */,
-				B2A2EA67A01CE03B2E10C98E92DABDE2 /* OnepayIPG.debug.xcconfig */,
-				8B7E059C1A10CDF7ACA459F9F90EE3B1 /* OnepayIPG.release.xcconfig */,
+				E6060BA6EA9E226C24BBDDDEC9D7C198 /* Inter-Regular.ttf */,
+				F7EEE601D3376C258038A8E96C100E5D /* Poppins-Light.ttf */,
+				6FC234F5C96D130042909DEFBFDA773D /* Poppins-Medium.ttf */,
+				587664AFFEF89A5C4268A5CC6D80F5D3 /* Poppins-Regular.ttf */,
+				37BE59F31787C3D5D0406D626A3CF7A1 /* Poppins-SemiBold.ttf */,
+				80253A9D0630A4894890F4A01360F4C8 /* Poppins-Thin.ttf */,
+			);
+			name = Fonts;
+			path = Source/Fonts;
+			sourceTree = "<group>";
+		};
+		A932278200C3B6D283BCB1B586F765B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A54BEC80BFFCEAA4BC9E7982FD04B5 /* OnepayIPG.modulemap */,
+				8B02D94773C8434C715D1206302B1187 /* OnepayIPG-dummy.m */,
+				AB3A8780CF5000252783F56940AE06E2 /* OnepayIPG-Info.plist */,
+				009F3B9457242F0A94224E7AF5DFB1A3 /* OnepayIPG-prefix.pch */,
+				89D1736CFF85F22594A1EF3C7B1A085F /* OnepayIPG-umbrella.h */,
+				3D720ED78A0A64655919EB55BA8D2F1E /* OnepayIPG.debug.xcconfig */,
+				578174FF47157D130C7793A41B8B8CD8 /* OnepayIPG.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OnepayIPG";
 			sourceTree = "<group>";
 		};
-		A58FCCA99C50103901611BD31CE9B5BE /* Resources */ = {
+		B01298D601511F46067460510473FD58 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A7047AE9BB00A8675C33ED9ED4453FDC /* Media.xcassets */,
-				C2B423899AE6A772019A47FAB755324C /* OnepayIPG.storyboard */,
-				F9F5B56300B8D2C996571F1A5A071F07 /* Fonts */,
+				FF4DA82E8228974EB1CEFF11EFD94678 /* IPGCurrencyTypes.swift */,
+				9020A0DFB6BAD41050BE6087545EFE9C /* IPGErrors.swift */,
+				BBD5EE1AF537B3783267CDD8C25CB33E /* IPGInit.swift */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		AD52C1DBC1B37FE59AEE886A40F7EC4B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2D50457435D7182B5CC2B33766F29110 /* FrimiVC.swift */,
-				1C3B9F7AC86A6ED001C92EB48EC34B10 /* GatewayMainVC.swift */,
-				E6054A901D0FB82DF56833FAA5A53D3E /* MainPVC.swift */,
-				0E7C415AD85F0BF50E224DEAB3897AAE /* VisaMasterVC.swift */,
-			);
-			name = Views;
-			path = Source/Views;
+			name = Models;
+			path = Source/Models;
 			sourceTree = "<group>";
 		};
 		CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */ = {
@@ -348,7 +410,6 @@
 				DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */,
 				7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -356,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1FBB65EEA2AE46838DD25E73D11D40FD /* Development Pods */,
+				653EE9FE342D6CD3F6EB7A22C539FDBD /* Development Pods */,
 				2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */,
 				90FDDC7F5D24472360CA259A8D40AE98 /* Pods */,
 				7387D4399825E9EF773898F33492DBC7 /* Products */,
@@ -372,12 +433,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E4A584CC9916DC63034DC6172934E662 /* Utility */ = {
+		EA5F516D70CC03A3681DB670862E58F4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				A69172ACD332B375EC5CB0F84FD9D543 /* CardFormatter.swift */,
+				45C18054CD26CAAC7C298F3DE448F1B2 /* CardFormatter.swift */,
+				EF27331B28731D9500FEB954 /* UtilityExtension.swift */,
 			);
-			name = Utility;
 			path = Utility;
 			sourceTree = "<group>";
 		};
@@ -388,36 +449,6 @@
 				3EF3A8982B8C0B0483FCBE41CD277F3F /* Pods-OnepayIPG_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F737B254B59E7D8C265F172CCD368C81 /* OnepayIPG */ = {
-			isa = PBXGroup;
-			children = (
-				68DB969A555ECEBC03279B25F855AF37 /* Constant.swift */,
-				EEDF7A596AE106A1EEDB24535A723342 /* OnepayIPGDelegate.swift */,
-				9A63B59AB1558F5546D561F8AA55C416 /* PaymentOptions.swift */,
-				3E8A29C786A1C8EED8E7E88009068F86 /* Extensions */,
-				7B233FDA752AE61F54B1B3763B58BD1B /* Pod */,
-				A58FCCA99C50103901611BD31CE9B5BE /* Resources */,
-				9EBDDACFD75545EA57D29B3D77D11E6E /* Support Files */,
-				AD52C1DBC1B37FE59AEE886A40F7EC4B /* Views */,
-			);
-			name = OnepayIPG;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F9F5B56300B8D2C996571F1A5A071F07 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				E7DAA988B030BED2582DCED9B2FD7D46 /* Inter-Regular.ttf */,
-				C865B71AD605321A8043BB472F460C4C /* Poppins-Light.ttf */,
-				CEE30E9DB8E979C0E7B88CBA9A579A16 /* Poppins-Medium.ttf */,
-				C69F8E9322364F70109240FD605CC46A /* Poppins-Regular.ttf */,
-				11DA22623B870D9E4B5C45D8C5BA8FFF /* Poppins-SemiBold.ttf */,
-				C07CD39C620B7D4E74E38FC76EF6A5A9 /* Poppins-Thin.ttf */,
-			);
-			name = Fonts;
-			path = Source/Fonts;
 			sourceTree = "<group>";
 		};
 		FCDFA43F298435893182F3B547EE8E72 /* Pods-OnepayIPG_Example */ = {
@@ -448,6 +479,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DE8E268D0158D736D51648E6CAA0B79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE577A3CFA477F8728378C16C1714D6F /* OnepayIPG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,14 +500,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CFD0835EFA7EC9EC9359A760F609CBB /* Pods-OnepayIPG_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		721932959F97FD2A5005BA2A5F16D6FF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5795C681B75E4248F3A13ED67A6BB92B /* OnepayIPG-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +518,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				72F3C38406CEE693168525AE2AC0459C /* PBXTargetDependency */,
+				996E683290AF57C3518828A8B14CB491 /* PBXTargetDependency */,
 			);
 			name = "Pods-OnepayIPG_Tests";
 			productName = "Pods-OnepayIPG_Tests";
@@ -506,8 +537,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				F5DCDCAB32A193A24FAADEBD7A40445A /* PBXTargetDependency */,
-				431EBA65BFAAC69889F1E9195A473BC9 /* PBXTargetDependency */,
+				7DE6F3A271A6FEFDA1D77D0AC5615E12 /* PBXTargetDependency */,
+				1480E01B91E9A6737CF116D2C2E4ED79 /* PBXTargetDependency */,
 			);
 			name = "Pods-OnepayIPG_Example";
 			productName = "Pods-OnepayIPG_Example";
@@ -516,17 +547,17 @@
 		};
 		A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AE20986A13146A5F0E937A2BBFF2270 /* Build configuration list for PBXNativeTarget "OnepayIPG" */;
+			buildConfigurationList = 2EACDE8F46D25F338FDFAF007340436F /* Build configuration list for PBXNativeTarget "OnepayIPG" */;
 			buildPhases = (
-				721932959F97FD2A5005BA2A5F16D6FF /* Headers */,
-				F8ADA9B69655FE92F6291B65788706EE /* Sources */,
-				28B953A12C9BF0F88C8A83A8948568C0 /* Frameworks */,
-				CF783F8FAE7BDC717CA1BAE0D0079DE0 /* Resources */,
+				0DE8E268D0158D736D51648E6CAA0B79 /* Headers */,
+				8CA8DAC4F7C81408032BBAD1D4BA8838 /* Sources */,
+				3FD7D6F46BE0BF5FD0C2E9CC4BA73D89 /* Frameworks */,
+				C4D730620AEAB641A5DB963BB6A3D4A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD2736D8A50BB108C3D62C3B515580C6 /* PBXTargetDependency */,
+				2ED192A1894F7DF87DF6A2A7AE35E935 /* PBXTargetDependency */,
 			);
 			name = OnepayIPG;
 			productName = OnepayIPG;
@@ -596,18 +627,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF783F8FAE7BDC717CA1BAE0D0079DE0 /* Resources */ = {
+		C4D730620AEAB641A5DB963BB6A3D4A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D476AAF49FA1764EF112835F019A76 /* Inter-Regular.ttf in Resources */,
-				33419F877BAC92830EA53A387066E324 /* Media.xcassets in Resources */,
-				41EB24A95CD9528AA2E5ED781A662856 /* OnepayIPG.storyboard in Resources */,
-				84AAF7DAB43A257EC696C490FA233C91 /* Poppins-Light.ttf in Resources */,
-				6A45B6F842E51B679B9E8678084EDE11 /* Poppins-Medium.ttf in Resources */,
-				A9C68DEFB92869FA31FA36BF5714CB47 /* Poppins-Regular.ttf in Resources */,
-				E04CECF44C4F60969E0A9F7AA8725734 /* Poppins-SemiBold.ttf in Resources */,
-				71D01F32A7F8251D5F7C7379E162BAFC /* Poppins-Thin.ttf in Resources */,
+				29E0BB3043DD685F6FDE9DFEEE3CAA66 /* Inter-Regular.ttf in Resources */,
+				F3D6F894C9684B2D82830B726B6375B9 /* Media.xcassets in Resources */,
+				EF95F750C2EBCD8E0468883E818F883F /* OnepayIPG.storyboard in Resources */,
+				0A2295C4F5E9846F3AFBFDF8AE1450F3 /* Poppins-Light.ttf in Resources */,
+				F1452E2FEA98D3466EF2B530625CD1ED /* Poppins-Medium.ttf in Resources */,
+				B553EFA661A89B73DB39F5BD826DA748 /* Poppins-Regular.ttf in Resources */,
+				9B5AA4E2C0566510B43213CF624DD8FA /* Poppins-SemiBold.ttf in Resources */,
+				34F7EB3DAD52D56AB9F6C476B7DA9935 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +677,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CA8DAC4F7C81408032BBAD1D4BA8838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE503CE13265572573A3AEBA677CA693 /* CardFormatter.swift in Sources */,
+				4E55D4A96CA722F3B23CFADD20DAA3FC /* Constant.swift in Sources */,
+				B023BAEEF8D6C1925EFE2F7785BD45A8 /* FrimiVC.swift in Sources */,
+				CC1032808D5BC1D92B417F98E7B4A7BE /* GatewayMainVC.swift in Sources */,
+				DB6186DBB019EDB9742F952B863E28BA /* IPGCurrencyTypes.swift in Sources */,
+				7801A068313C36F9A9513C0247E66CF7 /* IPGErrors.swift in Sources */,
+				EF27331C28731D9500FEB954 /* UtilityExtension.swift in Sources */,
+				A319884DD6183112311C6A1CC39D6F7A /* IPGInit.swift in Sources */,
+				EEBF78918953363B62B117086B90A95E /* MainPVC.swift in Sources */,
+				2C0F3ACF399A8DC52C8D1B86AB3936F6 /* OnepayIPG-dummy.m in Sources */,
+				06CC07D16CE10FA69DE62FF39BAF84F6 /* OnepayIPGDelegate.swift in Sources */,
+				21109FE7362B13DC96BF6E5273819E6A /* PaymentOptions.swift in Sources */,
+				B37F0FBD33005701537521B7C54E794F /* VisaMasterVC.swift in Sources */,
+				EBE100E3B0AD58454D071F76A3BEB468 /* VisaMasterViewModel.swift in Sources */,
+				53980D18AB456E946A9CEA75F2CF5388 /* VMFieldsConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF72648F1DCFD006A08A6D9977D61B1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -662,86 +715,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8ADA9B69655FE92F6291B65788706EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				647DBBC8B5F6F2AAE5EDD7A959BF1E6B /* CardFormatter.swift in Sources */,
-				1338B67268331B385C82BF0221D2F91B /* Constant.swift in Sources */,
-				E563CB0338B1F901689AB6F895ECA8AD /* FrimiVC.swift in Sources */,
-				4A4D55AE70CAA896969B6B631C0F2059 /* GatewayMainVC.swift in Sources */,
-				1AEE0C6C8850B4ACF1B8E01829803CF7 /* MainPVC.swift in Sources */,
-				9A449EFCC82481E1EFD3DC83250D8E0A /* OnepayIPG-dummy.m in Sources */,
-				CA8E833B60FFD5DA3DF3C7F12216A005 /* OnepayIPGDelegate.swift in Sources */,
-				E7CC2EA2DE164B9E1CF7276DBBDE9273 /* PaymentOptions.swift in Sources */,
-				09BAACB8F516EFE0D52A10D882CF9EC6 /* VisaMasterVC.swift in Sources */,
-				A86F62F8A257B66E70580AB0014E9E5B /* VMFieldsConfig.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		431EBA65BFAAC69889F1E9195A473BC9 /* PBXTargetDependency */ = {
+		1480E01B91E9A6737CF116D2C2E4ED79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OnepayIPG;
 			target = A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */;
-			targetProxy = DE7D4C0A1F0FA84EDC0C54B5531E54BF /* PBXContainerItemProxy */;
+			targetProxy = 3EF2A238B1A21C82C4B40AC54BDDF81A /* PBXContainerItemProxy */;
 		};
-		72F3C38406CEE693168525AE2AC0459C /* PBXTargetDependency */ = {
+		2ED192A1894F7DF87DF6A2A7AE35E935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 67EFD31D5824F488B62597275723C671 /* PBXContainerItemProxy */;
+		};
+		7DE6F3A271A6FEFDA1D77D0AC5615E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = FF140D8598D8FF50D6EB56DB2AD4054F /* PBXContainerItemProxy */;
+		};
+		996E683290AF57C3518828A8B14CB491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OnepayIPG_Example";
 			target = 654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */;
-			targetProxy = 5379B1EACBA77805E16EE5587C4E8587 /* PBXContainerItemProxy */;
-		};
-		DD2736D8A50BB108C3D62C3B515580C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 715143ADE03D7F7A1B308C44C78AC203 /* PBXContainerItemProxy */;
-		};
-		F5DCDCAB32A193A24FAADEBD7A40445A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 502BB02CB0C599F28EB454D66516470A /* PBXContainerItemProxy */;
+			targetProxy = 2CFA9E19900420DADD5EA46075360D98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08449416FD2BB5AC4D5FD5F78A864E31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A2EA67A01CE03B2E10C98E92DABDE2 /* OnepayIPG.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
-				PRODUCT_MODULE_NAME = OnepayIPG;
-				PRODUCT_NAME = OnepayIPG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -877,40 +880,6 @@
 			};
 			name = Release;
 		};
-		912D57C36201E248BAEC35BEA995D2E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B7E059C1A10CDF7ACA459F9F90EE3B1 /* OnepayIPG.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
-				PRODUCT_MODULE_NAME = OnepayIPG;
-				PRODUCT_NAME = OnepayIPG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A8A96F7FA8E00621AB99CF774924F4A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */;
@@ -976,6 +945,73 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB535502AF0F298D313C1081A22B7FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578174FF47157D130C7793A41B8B8CD8 /* OnepayIPG.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC05D25E3610457E293B097654E3410B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D720ED78A0A64655919EB55BA8D2F1E /* OnepayIPG.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1067,8 +1103,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1110,20 +1145,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2EACDE8F46D25F338FDFAF007340436F /* Build configuration list for PBXNativeTarget "OnepayIPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC05D25E3610457E293B097654E3410B /* Debug */,
+				CB535502AF0F298D313C1081A22B7FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
 				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AE20986A13146A5F0E937A2BBFF2270 /* Build configuration list for PBXNativeTarget "OnepayIPG" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08449416FD2BB5AC4D5FD5F78A864E31 /* Debug */,
-				912D57C36201E248BAEC35BEA995D2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

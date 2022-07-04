@@ -17,6 +17,7 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
         ]
     }()
     var onepayIPGDelegate: OnepayIPGDelegate? = nil
+    var initData: IPGInit!
     var keyboardNotificationDelegate: KeyboardManagementDelegate? = nil
     
     override func viewDidLoad() {
@@ -41,6 +42,7 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
             instantiateViewController(withIdentifier: ipgOption.rawValue) as! VisaMasterVC
             vc.keyboardNotificationdelegate = keyboardNotificationDelegate
             vc.delegate = self.onepayIPGDelegate
+            vc.initData = self.initData
             return vc
         case .optionTwo:
             

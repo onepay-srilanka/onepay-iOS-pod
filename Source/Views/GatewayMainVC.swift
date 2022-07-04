@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 protocol KeyboardManagementDelegate: Any{
     
@@ -22,6 +23,7 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
     public static let MAINGATEWAY         = Constant.MainGatewayVC
      
     private var onepayIPGDelegate: OnepayIPGDelegate? = nil
+    private var initData: IPGInit? = nil
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,10 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
         self.view.endEditing(true)
     }
     
+    public func setInitData(ipgInitData: IPGInit){
+        
+        self.initData = ipgInitData
+    }
     public func setIPGDelegate(onepayIPGDelegate: OnepayIPGDelegate){
         
         self.onepayIPGDelegate = onepayIPGDelegate
@@ -40,11 +46,20 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
     
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if let destination = segue.destination as? MainPVC{
+       
+            if let destination = segue.destination as? MainPVC{
             
-            destination.onepayIPGDelegate = onepayIPGDelegate
-            destination.keyboardNotificationDelegate = self
-        }
+                if let initializeData = self.initData{
+                    
+                    destination.initData = initializeData
+                }else{
+                    
+                    fatalError(IPGError.initError.rawValue)
+                }
+                destination.onepayIPGDelegate = onepayIPGDelegate
+                destination.keyboardNotificationDelegate = self
+            }
+        
     }
     
     func onKeyboardWillHide() {

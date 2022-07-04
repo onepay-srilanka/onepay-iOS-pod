@@ -18,7 +18,10 @@ class VisaMasterVC: UIViewController {
     @IBOutlet weak var txtFieldDate: UITextField!
     @IBOutlet weak var btPay: UIButton!
     
+    private let viewModel = VisaMasterViewModel()
+    var isValidExpireDate = false
     var delegate: OnepayIPGDelegate? = nil
+    var initData: IPGInit!
     var keyboardNotificationdelegate: KeyboardManagementDelegate? = nil
     internal var selectedCardType: String? {
         didSet{
@@ -76,7 +79,7 @@ class VisaMasterVC: UIViewController {
     
     @IBAction func tappedOnPay(_ sender: Any) {
         
-        delegate?.onPaymentSuccess()
+        
     }
 
     
