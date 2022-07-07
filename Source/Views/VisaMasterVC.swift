@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class VisaMasterVC: UIViewController {
 
     
@@ -19,7 +18,9 @@ class VisaMasterVC: UIViewController {
     @IBOutlet weak var btPay: UIButton!
     
     private let viewModel = VisaMasterViewModel()
+    private let progress  = ProgressHUD(text: "processing...")
     var isValidExpireDate = false
+    var cardType = CardType.Unknown
     var delegate: OnepayIPGDelegate? = nil
     var initData: IPGInit!
     var keyboardNotificationdelegate: KeyboardManagementDelegate? = nil
@@ -42,6 +43,8 @@ class VisaMasterVC: UIViewController {
     
     private func setUpView(){
         
+//        view.addSubview(progress)
+//        progress.hide()
         
         btPay.layer.cornerRadius = 8
         
@@ -62,7 +65,7 @@ class VisaMasterVC: UIViewController {
 
         txtFieldDate.layer.borderWidth = 1
         txtFieldDate.layer.borderColor = UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1).cgColor
-        txtFieldDate.attributedPlaceholder = getAttributedPlaceholder(placeholder: "DD/MM")
+        txtFieldDate.attributedPlaceholder = getAttributedPlaceholder(placeholder: "MM/YY")
         txtFieldDate.layer.cornerRadius = 6
         
         txtFieldDate.addTarget(self, action: #selector(self.validateExpireDate(textField:)), for: .editingChanged)
@@ -79,10 +82,54 @@ class VisaMasterVC: UIViewController {
     
     @IBAction func tappedOnPay(_ sender: Any) {
         
+        let nameONCard = txtFieldName.text?.trimmingCharacters(in: .whitespaces) ?? ""
+        let cardNumber = txtFieldCardNumber.text?.replacingOccurrences(of: " ", with: "") ?? ""
+        let expDate    = txtFieldDate.text ?? ""
+        let cvv        = txtFieldCVV.text ?? ""
         
+        
+        viewModel.validateData(initData: self.initData, nameOnCard: nameONCard, cardNumber: cardNumber, cardType: self.cardType, isValidExpireDate: self.isValidExpireDate,expDate: expDate, cvv: cvv){ result in
+            
+            switch result{
+                
+            case .success(let requestData):
+                
+                get3DS(data: requestData)
+                 break
+                
+            case .failure(let ipgError):
+                
+                Alert.showError(msg: ipgError.rawValue, on: self)
+            }
+        }
     }
 
-    
+    private func get3DS(data: _3DSRequestData){
+        
+        GatewayMainVC.progress.show()
+        viewModel.validateAndGet3DS(reqData: data){ [weak self] result in
+            
+            guard let _ = self else{ return }
+            
+            GatewayMainVC.progress.hide()
+            
+            switch result{
+                
+            case .success(let response):
+                
+                if response.status == 1024{
+                    
+                }else{
+                    
+                    Alert.showError(msg: response.message, on: self!)
+                }
+                
+            case .failure(let error):
+                
+                Alert.showError(msg: error.rawValue, on: self!)
+            }
+        }
+    }
     @objc func keyboardWillShow(sender: NSNotification) {
         
         keyboardNotificationdelegate?.onKeyboardWillShow()

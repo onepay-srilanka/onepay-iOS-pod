@@ -12,24 +12,24 @@ import UIKit
 struct Constant {
     
     //MARK: -  Server URL
-    //    public static var API_BASE_URL =  ""
-    static var API_BASE_URL =  ""
+//        public static var API_BASE_URL =  "https://merchant-api-live-v2.onepay.lk/"
+    static var API_BASE_URL =  "https://merchant-api-development.onepay.lk/"
     static var RESOURCE_BASE_URL = "https://onepayserviceimages.s3.amazonaws.com/"
+    static var token: String? = nil
+    static var hashKey: String? = nil
+    static var _3DSurl: String?  = nil
     
     //MARK:- Token Expire Time
     static var TOKEN_EXPIRE_TIME = 30
     
     //MARK: - Alerts Headers
-    static let USER_INPUTS_VALIDATION_ERROR_MESSAGE_HEADER   = "Error"
+    static let USER_INPUTS_VALIDATION_ERROR_MESSAGE_HEADER   = "IPG Error"
     static let USER_INPUTS_VALIDATION_SUCCESS_MESSAGE_HEADER = "Success"
     static let REQUEST_PAYMENT_SUCCESS_HEADER                = "Payment Request"
     
     //MARK: - Logged User
     static var USER_BUSINESS_TYPE  = ""
     static var USER_FCM_TOKEN      = ""
-    
-    //MARK: - Regex
-    static let PHONE_REGEX = "^(?:0)[0-9]{9,10}$"
     
     //MARK: - Common IDENTIFIERS
     static let MainGatewayVC            = "GatewayMainVC"

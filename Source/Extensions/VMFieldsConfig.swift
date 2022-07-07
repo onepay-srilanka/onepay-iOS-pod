@@ -64,16 +64,19 @@ extension VisaMasterVC: UITextFieldDelegate{
         
         case .Visa:
             
+            cardType = .Visa
             let bundle = Bundle(for: VisaMasterVC.self)
             self.imgCardType.image = UIImage(named: "visa.png", in: bundle, compatibleWith: nil)
             
         case .MasterCard:
             
+            cardType = .MasterCard
             let bundle = Bundle(for: VisaMasterVC.self)
             self.imgCardType.image = UIImage(named: "mastercard.png", in: bundle, compatibleWith: nil)
 
         default:
             
+            cardType = .Unknown
             self.imgCardType.image = nil
            
         }

@@ -156,6 +156,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lblAmount" destination="kHi-Lm-NwS" id="F0R-bF-1rl"/>
                         <outlet property="viewVisaMaster" destination="zkm-92-Jjf" id="8nP-bu-vkO"/>
                     </connections>
                 </viewController>

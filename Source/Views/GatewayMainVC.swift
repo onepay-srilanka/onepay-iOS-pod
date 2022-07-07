@@ -17,10 +17,12 @@ protocol KeyboardManagementDelegate: Any{
 public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
 
     
+    @IBOutlet weak var lblAmount: UILabel!
     @IBOutlet weak var viewVisaMaster: UIView!
     
     public static let CONTAINS_STORYBOARD = Constant.MainStoryboard
     public static let MAINGATEWAY         = Constant.MainGatewayVC
+    static let progress = ProgressHUD(text: "processing")
      
     private var onepayIPGDelegate: OnepayIPGDelegate? = nil
     private var initData: IPGInit? = nil
@@ -29,6 +31,8 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
         super.viewDidLoad()
         
         viewVisaMaster.layer.cornerRadius = 8
+        view.addSubview(GatewayMainVC.progress)
+        GatewayMainVC.progress.hide()
     }
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -51,7 +55,15 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
             
                 if let initializeData = self.initData{
                     
+                    if initializeData.hashKey.isEmpty{
+                        
+                        fatalError(IPGError.hashKeyError.rawValue)
+                    }
+                  
+                    lblAmount.text =  String(format: "%.2f LKR", initializeData.amount)
                     destination.initData = initializeData
+                    Constant.token = initializeData.token
+                    Constant.hashKey = initializeData.hashKey
                 }else{
                     
                     fatalError(IPGError.initError.rawValue)
