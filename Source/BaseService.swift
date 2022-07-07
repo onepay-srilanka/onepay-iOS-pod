@@ -43,7 +43,7 @@ class BaseService {
         if isAuthorized {
             
             if let token = Constant.token {
-                request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+                request.setValue(token, forHTTPHeaderField: "Authorization")
             }
 
         }

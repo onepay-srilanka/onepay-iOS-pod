@@ -119,6 +119,7 @@ class VisaMasterVC: UIViewController {
                 
                 if response.status == 1024{
                     
+                    // do something when success
                 }else{
                     
                     Alert.showError(msg: response.message, on: self!)

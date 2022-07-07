@@ -31,6 +31,8 @@ enum IPGError: String, Error{
 enum ApiErrors: String, Error{
     
     case encryptionError  = "Unable to encrypt to json"
+    case jsonEncodeError  = "unable to encode the data"
+    case invalidJson      = "Invalid Json"
     case invalidResponse  = "Invalid response from server. Please try again."
     case unableToComplete = "Unable to complete your request. Something went wrong."
 }

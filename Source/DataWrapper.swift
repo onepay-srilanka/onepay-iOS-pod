@@ -31,7 +31,6 @@ class DataWrapper{
             guard let jsonString  = json.toString() else { return nil }
             
             let finalStr = jsonString + Constant.hashKey!
-            print(finalStr)
             
             return sha256(data: Data(finalStr.utf8))
             
@@ -49,7 +48,6 @@ class DataWrapper{
             
             guard let jsonString  = json.toString() else { return nil }
             
-            print(jsonString)
             return try jsonEncoder.encode(model)
             
         } catch let (error){
@@ -59,6 +57,24 @@ class DataWrapper{
         }
     }
     
+    
+    func decodeData<T: Decodable>(data: Data?, modelClass: T.Type, completed: @escaping (Result<T, ApiErrors>)->Void)  {
+        
+        if let resultData = data{
+        
+            do {
+                let result =  try jsonDecoder.decode(modelClass, from: resultData)
+            
+                completed(.success(result))
+            } catch (let error){
+                
+                print(error)
+                completed(.failure(.invalidJson))
+            }
+        } else {
+            completed(.failure(.invalidResponse))
+        }
+    }
     
     private func sha256(data : Data) -> String {
         

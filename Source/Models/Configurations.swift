@@ -18,12 +18,12 @@ public struct IPGInit{
     let appID: String
     let email: String
     let hashKey: String
-    let amount: Float
+    let amount: Double
     let currency: CurrencyTypes
     var transactionOrder: [TransactionOrder]? = nil
     
     
-    public init(token: String, firstName: String, lastName: String, phone: String, reference: String, appID: String, email: String, hashKey: String, amount: Float, currency: CurrencyTypes, transactionOrder: [TransactionOrder]? = nil){
+    public init(token: String, firstName: String, lastName: String, phone: String, reference: String, appID: String, email: String, hashKey: String, amount: Double, currency: CurrencyTypes, transactionOrder: [TransactionOrder]? = nil){
         
         self.token             = token
         self.firstName         = firstName

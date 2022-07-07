@@ -117,6 +117,7 @@ class VisaMasterViewModel{
                                    currency: initData.currency.rawValue,
                                    amount: initData.amount,
                                    transactionOrder: initData.transactionOrder)
+        
         completion(.success(data))
     }
     
