@@ -18,7 +18,7 @@ enum IPGError: String, Error{
     case fnameEmpty = "first name not found"
     case lnameEmpty = "last name not found"
     case zeroAmount = "not a valid amount"
-    case invalidEmaill = "invalid email"
+    case invalidEmail = "invalid email"
     case invalidPhone = "invalid phone"
     case emptyName = "Name on card cannot be empty"
     case invalidCardNumber = "Invalid card number"

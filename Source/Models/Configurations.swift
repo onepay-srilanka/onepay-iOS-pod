@@ -10,12 +10,17 @@ import UIKit
 
 public struct OnepayIPGInit{
     
-    let userDetails: UserDetails
-    let secDetails: SecurityDetails
-    let proDetails: ProductDetails
+    /// A Unicode string value that is a collection of characters.
+    ///
+    
+    let userDetails: Customer
+    
+    
+    let secDetails: Configurations
+    let proDetails: Product
 }
 
-public struct UserDetails{
+public struct Customer{
 
     let firstName: String
     let lastName: String
@@ -24,14 +29,14 @@ public struct UserDetails{
     
     public init(firstName: String, lastName: String, phone: String, email: String){
         
-        self.firstName          = firstName
-        self.lastName           = lastName
-        self.phone              = phone
-        self.email              = email
+        self.firstName          = firstName.trimmingCharacters(in: .whitespacesAndNewlines)
+        self.lastName           = lastName.trimmingCharacters(in: .whitespacesAndNewlines)
+        self.phone              = phone.trimmingCharacters(in: .whitespacesAndNewlines)
+        self.email              = email.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
 
-public struct SecurityDetails{
+public struct Configurations{
     
     let token: String
     let appID: String
@@ -45,7 +50,7 @@ public struct SecurityDetails{
     }
 }
 
-public struct ProductDetails{
+public struct Product{
     
     let amount: Double
     let currency: CurrencyTypes
@@ -85,23 +90,23 @@ public struct ProductDetails{
 
 public class IPGInitBuilder{
     
-    private(set) var user: UserDetails? = nil
-    private(set) var security: SecurityDetails? = nil
-    private(set) var product: ProductDetails? = nil
+    private(set) var user: Customer? = nil
+    private(set) var security: Configurations? = nil
+    private(set) var product: Product? = nil
     
     public init(){}
     
-    public func setUser(_ user: UserDetails) {
+    public func setUser(_ user: Customer) {
         
         self.user = user
     }
     
-    public func setSecurity(_ secDetails: SecurityDetails) {
+    public func setSecurity(_ secDetails: Configurations) {
         
         self.security = secDetails
     }
     
-    public func setProduct(_ productDetails: ProductDetails) {
+    public func setProduct(_ productDetails: Product) {
         
         self.product = productDetails
     }
@@ -137,7 +142,7 @@ public class IPGInitBuilder{
             
             if !user.email.isValidEmail(){
                 
-                fatalError(IPGError.invalidEmaill.rawValue)
+                fatalError(IPGError.invalidEmail.rawValue)
             }
             
             if !user.phone.isAValidPhone(){

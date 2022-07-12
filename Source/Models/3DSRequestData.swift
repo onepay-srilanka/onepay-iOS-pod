@@ -24,8 +24,8 @@ struct _3DSRequestData: Encodable{
     let deviceModel: String
     let deviceOs: String
     let currency: String
-    let amount: Double
-    let transactionOrder: [ProductDetails.TransactionOrder]?
+    let amount: String
+    let transactionOrder: [Product.TransactionOrder]?
 }
 
 struct _3DS: Decodable{

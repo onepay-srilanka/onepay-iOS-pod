@@ -44,7 +44,7 @@ class VisaMasterViewModel{
         let data = _3DSRequestData(appId: initData.secDetails.appID,
                                    cardNumber: "5164020168735008",
                                    customerEmail: initData.userDetails.email,
-                                   reference: initData.userDetails.reference,
+                                   reference: initData.proDetails.reference,
                                    customerFirstName: initData.userDetails.firstName,
                                    customerLastName: initData.userDetails.lastName,
                                    customerPhoneNumber: initData.userDetails.phone,
@@ -56,7 +56,7 @@ class VisaMasterViewModel{
                                    deviceModel: UIDevice.current.model,
                                    deviceOs: "iOS",
                                    currency: initData.proDetails.currency.rawValue,
-                                   amount: initData.proDetails.amount,
+                                   amount: String(format: "%.2f LKR", initData.proDetails.amount),
                                    transactionOrder: initData.proDetails.transactionOrder)
         
         completion(.success(data))
