@@ -11,55 +11,7 @@ import UIKit
 class VisaMasterViewModel{
     
     
-    func validateData(initData: IPGInit, nameOnCard: String, cardNumber: String, cardType: CardType, isValidExpireDate: Bool, expDate: String, cvv: String, completion: (Result<_3DSRequestData, IPGError>) -> Void){
-        
-        if initData.token.isEmpty{
-            
-            completion(.failure(.invalidToken))
-            return
-        }
-        
-        if initData.firstName.isEmpty{
-            
-            completion(.failure(.fnameEmpty))
-            return
-        }
-        
-        if initData.lastName.isEmpty{
-            
-            completion(.failure(.lnameEmpty))
-            return
-        }
-        
-        if !initData.email.isValidEmail(){
-            
-            completion(.failure(.invalidEmaill))
-            return
-        }
-        
-        if !initData.phone.isAValidPhone(){
-            
-            completion(.failure(.invalidPhone))
-            return
-        }
-        
-        if initData.reference.isEmpty{
-            
-            completion(.failure(.referenceEmpty))
-            return
-        }
-        
-        if initData.appID.isEmpty{
-            
-            completion(.failure(.appIDEmpty))
-            return
-        }
-        
-        if initData.amount <= 0{
-            
-            completion(.failure(.zeroAmount))
-            return
-        }
+    func validateData(initData: OnepayIPGInit, nameOnCard: String, cardNumber: String, cardType: CardType, isValidExpireDate: Bool, expDate: String, cvv: String, completion: (Result<_3DSRequestData, IPGError>) -> Void){
         
         if nameOnCard.isEmpty{
             
@@ -84,29 +36,18 @@ class VisaMasterViewModel{
             return
         }
         
-        if let transOrder = initData.transactionOrder{
-            
-            transOrder.forEach{ transOrder in
-                
-                if transOrder.itemName.isEmpty || transOrder.itemCode.isEmpty{
-                    
-                    completion(.failure(.transOrderEmptyValues))
-                    return
-                }
-            }
-        }
-       
+    
         let splitedDate = expDate.components(separatedBy: "/")
         let month = splitedDate[0]
         let year  = splitedDate[1]
         
-        let data = _3DSRequestData(appId: initData.appID,
+        let data = _3DSRequestData(appId: initData.secDetails.appID,
                                    cardNumber: "5164020168735008",
-                                   customerEmail: initData.email,
-                                   reference: initData.reference,
-                                   customerFirstName: initData.firstName,
-                                   customerLastName: initData.lastName,
-                                   customerPhoneNumber: initData.phone,
+                                   customerEmail: initData.userDetails.email,
+                                   reference: initData.userDetails.reference,
+                                   customerFirstName: initData.userDetails.firstName,
+                                   customerLastName: initData.userDetails.lastName,
+                                   customerPhoneNumber: initData.userDetails.phone,
                                    cardMonth: "05",
                                    cardYear: "27",
                                    cardCvv: "200",
@@ -114,9 +55,9 @@ class VisaMasterViewModel{
                                    deviceId: UIDevice.current.identifierForVendor!.uuidString,
                                    deviceModel: UIDevice.current.model,
                                    deviceOs: "iOS",
-                                   currency: initData.currency.rawValue,
-                                   amount: initData.amount,
-                                   transactionOrder: initData.transactionOrder)
+                                   currency: initData.proDetails.currency.rawValue,
+                                   amount: initData.proDetails.amount,
+                                   transactionOrder: initData.proDetails.transactionOrder)
         
         completion(.success(data))
     }

@@ -8,56 +8,171 @@
 import Foundation
 import UIKit
 
-public struct IPGInit{
+public struct OnepayIPGInit{
     
-    let token: String
+    let userDetails: UserDetails
+    let secDetails: SecurityDetails
+    let proDetails: ProductDetails
+}
+
+public struct UserDetails{
+
     let firstName: String
     let lastName: String
     let phone: String
-    let reference: String
-    let appID: String
     let email: String
+    let reference: String
+    
+    public init(firstName: String, lastName: String, phone: String, email: String, reference: String){
+        
+        self.firstName          = firstName
+        self.lastName           = lastName
+        self.phone              = phone
+        self.email              = email
+        self.reference          = reference
+    }
+}
+
+public struct SecurityDetails{
+    
+    let token: String
+    let appID: String
     let hashKey: String
+    
+    public init(token: String, appID: String, hashKey: String){
+        
+        self.token          = token
+        self.appID          = appID
+        self.hashKey        = hashKey
+    }
+}
+
+public struct ProductDetails{
+    
     let amount: Double
     let currency: CurrencyTypes
-    var transactionOrder: [TransactionOrder]? = nil
-    
-    
-    public init(token: String, firstName: String, lastName: String, phone: String, reference: String, appID: String, email: String, hashKey: String, amount: Double, currency: CurrencyTypes, transactionOrder: [TransactionOrder]? = nil){
+    let transactionOrder: [TransactionOrder]?
+
+    public init(amount: Double, curency: CurrencyTypes, transactionOrder: [TransactionOrder]? = nil){
         
-        self.token             = token
-        self.firstName         = firstName
-        self.lastName          = lastName
-        self.phone             = phone
-        self.reference         = reference
-        self.appID             = appID
-        self.email             = email
-        self.hashKey           = hashKey
-        self.amount            = amount
-        self.currency          = currency
-        self.transactionOrder  = transactionOrder
+        self.amount             = amount
+        self.currency           = curency
+        self.transactionOrder   = transactionOrder
+    }
+    
+    public struct TransactionOrder: Encodable{
         
+        let itemName: String
+        let itemCode: String
+        let quantity: Int
+        let unitPrice: Float
+        
+        public init(itemName: String, itemCode: String, qty: Int, unitPrice: Float){
+            
+            self.itemName          = itemName
+            self.itemCode          = itemCode
+            self.quantity          = qty
+            self.unitPrice         = unitPrice
+        }
+    }
+    
+    public enum CurrencyTypes: String{
+        
+        case LKR  =  "LKR"
+        case USD  =  "USD"
     }
 }
 
-public struct TransactionOrder: Encodable{
+public class IPGInitBuilder{
     
-    let itemName: String
-    let itemCode: String
-    let quantity: Int
-    let unitPrice: Float
+    private(set) var user: UserDetails? = nil
+    private(set) var security: SecurityDetails? = nil
+    private(set) var product: ProductDetails? = nil
     
-    public init(itemName: String, itemCode: String, qty: Int, unitPrice: Float){
+    public init(){}
+    
+    public func setUser(_ user: UserDetails) {
         
-        self.itemName          = itemName
-        self.itemCode          = itemCode
-        self.quantity          = qty
-        self.unitPrice         = unitPrice
+        self.user = user
+    }
+    
+    public func setSecurity(_ secDetails: SecurityDetails) {
+        
+        self.security = secDetails
+    }
+    
+    public func setProduct(_ productDetails: ProductDetails) {
+        
+        self.product = productDetails
+    }
+    
+    public func build() -> OnepayIPGInit{
+        
+        if let user = self.user, let security = self.security, let product = self.product{
+            
+            if security.token.isEmpty{
+                
+                fatalError(IPGError.invalidToken.rawValue)
+            }
+            
+            if security.appID.isEmpty{
+                
+                fatalError(IPGError.appIDEmpty.rawValue)
+            }
+            
+            if security.hashKey.isEmpty{
+                
+                fatalError(IPGError.hashKeyError.rawValue)
+            }
+            
+            if user.reference.isEmpty{
+                
+                fatalError(IPGError.referenceEmpty.rawValue)
+            }
+            
+            if user.firstName.isEmpty{
+                
+                fatalError(IPGError.fnameEmpty.rawValue)
+            }
+            
+            if user.lastName.isEmpty{
+                
+                fatalError(IPGError.lnameEmpty.rawValue)
+            }
+            
+            if !user.email.isValidEmail(){
+                
+                fatalError(IPGError.invalidEmaill.rawValue)
+            }
+            
+            if !user.phone.isAValidPhone(){
+                
+                fatalError(IPGError.invalidPhone.rawValue)
+            }
+            
+            if product.amount <= 0{
+                
+                fatalError(IPGError.zeroAmount.rawValue)
+            }
+            
+            if let transOrder = product.transactionOrder{
+                
+                transOrder.forEach{ transOrder in
+                    
+                    if transOrder.itemName.isEmpty || transOrder.itemCode.isEmpty{
+                        
+                        fatalError(IPGError.transOrderEmptyValues.rawValue)
+                    }
+                }
+            }
+            
+            return OnepayIPGInit(userDetails: user, secDetails: security, proDetails: product)
+            
+        }else{
+            
+            fatalError(IPGError.initError.rawValue)
+        }
     }
 }
 
-public enum CurrencyTypes: String{
-    
-    case LKR  =  "LKR"
-    case USD  =  "USD"
-}
+

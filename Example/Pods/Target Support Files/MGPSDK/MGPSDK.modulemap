@@ -1,0 +1,6 @@
+framework module MGPSDK {
+  umbrella header "MGPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

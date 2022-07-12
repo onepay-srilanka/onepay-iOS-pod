@@ -40,12 +40,16 @@ TODO: Add long description of the pod here.
   
   s.resources = "Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf}"
   s.dependency 'Alamofire'
+  s.dependency 'MGPSDK'
   
   # s.resource_bundles = {
   #   'OnepayIPG' => ['OnepayIPG/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.vendored_frameworks = 'CalendarControl.framework'
+  # s.frameworks = 'CalendarControl'
+
+  # s.vendored_frameworks = 'SubDirec/CalendarControl.xcframework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

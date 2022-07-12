@@ -20,6 +20,7 @@ struct IPGAPI{
             "reference": data.reference
         ]
         
+
         guard let hash = DataWrapper.shared.encryptSHA256(hashData) else { return completed(.failure(.encryptionError)) }
         
         let url =  "\(Constant.API_BASE_URL)api/ipg/sdk/mpgs-onetime-transaction/?hash=\(hash)"

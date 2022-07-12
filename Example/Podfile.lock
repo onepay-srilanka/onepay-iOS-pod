@@ -1,15 +1,17 @@
 PODS:
   - Alamofire (5.6.1)
+  - MGPSDK (1.1.5)
   - OnepayIPG (0.1.0):
     - Alamofire
+    - MGPSDK
 
 DEPENDENCIES:
-  - Alamofire
   - OnepayIPG (from `../`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - MGPSDK
 
 EXTERNAL SOURCES:
   OnepayIPG:
@@ -17,8 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  OnepayIPG: bca6e3f5862a16cf43c06d274e4cb62095b6050a
+  MGPSDK: 1bc151747c432c3e118ccbbeb8ef54db79ef86f6
+  OnepayIPG: 5b8176ae5e9881cf3617929ceb462ac3e4a9968d
 
-PODFILE CHECKSUM: 0670c3c3709a26d3e5577e42391eba9ee8adcf92
+PODFILE CHECKSUM: bb4b54d68dbb4a07ce07a6b37a034c7d6f5cd365
 
 COCOAPODS: 1.9.3

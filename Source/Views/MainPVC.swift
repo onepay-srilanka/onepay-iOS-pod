@@ -17,8 +17,8 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
         ]
     }()
     var onepayIPGDelegate: OnepayIPGDelegate? = nil
-    var initData: IPGInit!
-    var keyboardNotificationDelegate: KeyboardManagementDelegate? = nil
+    var initData: OnepayIPGInit!
+    var mainVCManagementDelegate: MainManagementDelegate? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class MainPVC: UIPageViewController, UIPageViewControllerDataSource{
             
             let vc = UIStoryboard(name: Constant.MainStoryboard, bundle: bundle) .
             instantiateViewController(withIdentifier: ipgOption.rawValue) as! VisaMasterVC
-            vc.keyboardNotificationdelegate = keyboardNotificationDelegate
+            vc.mainVCManagemnetDelegate = mainVCManagementDelegate
             vc.delegate = self.onepayIPGDelegate
             vc.initData = self.initData
             return vc

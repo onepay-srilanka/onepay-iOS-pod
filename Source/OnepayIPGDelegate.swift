@@ -9,6 +9,6 @@ import Foundation
 
 public protocol OnepayIPGDelegate: Any{
     
-    func onPaymentSuccess()
-    func onPaymentFailed()
+    func onPaymentSuccess(response: OnepayIPGSuccess)
+    func onPaymentFailed(error: OnepayIPGError)
 }

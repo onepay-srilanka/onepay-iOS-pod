@@ -7,109 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		022BCEF316E327F6E1632D0D67692647 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */; };
-		0656F5C367BB9511307767568F39BC35 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D97FB483508422ACE73BA88223F05 /* Session.swift */; };
-		0A26F39D9236B74CE6D7DEA16CF70EEC /* VMFieldsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D4263D0821CEF7ECB0792148E70D5 /* VMFieldsConfig.swift */; };
-		0A2D02B03CA5E6E091119AF6ED7ADCC8 /* CardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E066046F3158AD191B8FFAEE3F49090 /* CardFormatter.swift */; };
-		0B772C49A4F2AB569BA0B4B1F73C6251 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */; };
-		0E58C34185257D48228801144DA78C6E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */; };
-		0F8438D7197B5AB2FAC5E96B578450CD /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		118EDAD866F0986D6DDA67DE75ED5186 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D7DCCF174D744293FA06829CCF63C /* Poppins-Light.ttf */; };
-		1286ED00B338291C6EC71D5C9F438656 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */; };
-		1323792C0306DB2B66D851EF024F9ED8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D611F243BC3328826FE250D806EC26 /* Combine.swift */; };
-		15C6B6809343CFA80FFC4F012A3E2EB8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */; };
-		1A032444EBB3594763FB927A95011F77 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4087576FBC9EFA1CEA4E39B3D0A7E76 /* Alert.swift */; };
-		1E13CBCBC2560FF4FB897631C2017EC7 /* DataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA61A9549AD61CEFAC40E7497E67B80 /* DataWrapper.swift */; };
-		1EEDA6351ED9583B9CF8BE1C577EF0D7 /* PaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39F441084B34725F870FD40A8CA820 /* PaymentOptions.swift */; };
-		1EFE1F81C7FEBA4D7EA5A792BC003108 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB4FC14E10E444488851A584FC6030 /* APIService.swift */; };
-		1F725557D93D698601246CD08B53A298 /* CardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D43357770B1BCD88DD3A46EBD8141 /* CardTypes.swift */; };
-		26BFB77B62CDD155DEB799F531EB687A /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C4E258F02B0553D66DCA7067577C7 /* Configurations.swift */; };
-		282272BC2936A2258E6217B690A5A15C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BD7B93FEA70BDFD057550D07FA7961 /* CFNetwork.framework */; };
-		2889733F8DD4B17D45FD7FBC39BD9443 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */; };
-		2ED85E2435D6E2AB6D1B648BC022BB93 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */; };
-		3583EE917F8566A235BE87667810002E /* Pods-OnepayIPG_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BB1B762B933A7847B4DC115EA9EC8F9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */; };
-		3CE6A4190ECE393649CEB9EE343038F6 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FABF98340369AE7700E71E7650B61E4C /* Poppins-Thin.ttf */; };
-		48F2026A1B2E133B1B9D855F3A9897A0 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */; };
-		49AAD549186408D052BA429CEA6783CD /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */; };
-		4DD74B41A0C9789F64F47ED40D49DA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F401E181BEA002337E464DED414F440 /* Foundation.framework */; };
-		4FF00AD4EB037FCA09F5489F58E24261 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */; };
-		5ACA31092D39220148C68A43308E019C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825C067D0D285E522FCBE36292ADF8A7 /* Media.xcassets */; };
-		5F0E9EBF289BDD0490E25890F47EC2FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F401E181BEA002337E464DED414F440 /* Foundation.framework */; };
-		5F1B8D30A2728786F574CB915E3F1ECE /* VisaMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D9740938BB01C7CD06253FDFFAFD3 /* VisaMasterVC.swift */; };
-		61EA0D07F185A53C2D4BE84D2F352754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F401E181BEA002337E464DED414F440 /* Foundation.framework */; };
-		66E51E043D48A9D5181291D77DCD770D /* MainPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC2DF2C50562A5C992111D38D5B1CF7 /* MainPVC.swift */; };
-		6A3EA367BEA31BD4E1974BD2FDE1A079 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50552C21E6127198EC50F2584B9DA781 /* Poppins-SemiBold.ttf */; };
-		6AF82BF989FBDA452D6ED8FD61AD110F /* OnepayIPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3222AD4BF4E0017E404F6999C649380A /* OnepayIPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		713FF42E4C9B1B302277BC87A112897C /* FrimiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C853D771DBCE55972D26D5BBAD8D7A /* FrimiVC.swift */; };
-		73C01E0233A24A16CF5B64C8B5D2BAE5 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91762C69C08629CBFD921AEBACE63AED /* AFError.swift */; };
-		74DAD001EA48FFB58D18F8ED933E75EB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FF301302A2A77E95697F2B5692FA5E /* Alamofire.framework */; };
-		760A16F6087EAAE4E3BD5C1485793F38 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861FE9D50C52464CB2D500214B4FF326 /* Poppins-Medium.ttf */; };
-		76838F810D273BECC9D873F19313006F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */; };
-		76F0290BD6569238CF4542CA29EC8CF8 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443675617F2D5656EEBE486EAFDF7E6 /* BaseService.swift */; };
-		7B7474194CE52B4C8F739B5283982A5F /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */; };
-		7CCCFF906F99A5C15271078726CDFE01 /* GatewayMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7DBA9A1DD9A56E151D32DD79DE876 /* GatewayMainVC.swift */; };
-		7E617B0B930A6CF8C9FDE9564B42F416 /* OnepayIPG.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDC8ADE60F9E71240ADA3F03E4D8D63 /* OnepayIPG.storyboard */; };
-		808BF5E1DC3446655F6C27524A47D85D /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */; };
-		80DA21F0B42FF94A969F4604388B553E /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */; };
-		81EC6F5DCBDEAEE22A670256FB3B3B91 /* Pods-OnepayIPG_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */; };
+		022BCEF316E327F6E1632D0D67692647 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCFE3DCF523CD20885791BEA9B9AED /* CachedResponseHandler.swift */; };
+		03516F7F70785A84702BD8FF97C25FE5 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FABF98340369AE7700E71E7650B61E4C /* Poppins-Thin.ttf */; };
+		0656F5C367BB9511307767568F39BC35 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD67C22B7BA6606F52DEA31264CBE1 /* Session.swift */; };
+		09BF7797C8B96ECA1149A7A1E95B1062 /* MainPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC2DF2C50562A5C992111D38D5B1CF7 /* MainPVC.swift */; };
+		0B772C49A4F2AB569BA0B4B1F73C6251 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC737FA87B3A2536D103C9E541696C06 /* ServerTrustEvaluation.swift */; };
+		0E58C34185257D48228801144DA78C6E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3FE3564D815310EEB1E8045879D50 /* Request.swift */; };
+		0F8438D7197B5AB2FAC5E96B578450CD /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2024F5F30249ECC4A8206BD32128E5BD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1286ED00B338291C6EC71D5C9F438656 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45304A57624D5F75DE2C91A59049928 /* RequestTaskMap.swift */; };
+		1323792C0306DB2B66D851EF024F9ED8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC675253ED567F1712E5BA73029256 /* Combine.swift */; };
+		133FA187567BA6E665343E105BFF4602 /* FrimiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C853D771DBCE55972D26D5BBAD8D7A /* FrimiVC.swift */; };
+		15C6B6809343CFA80FFC4F012A3E2EB8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99DFAE86B95CC2BA67F0BC54F434FD /* Alamofire.swift */; };
+		2012A6BFA7C92AB186433AFC597B8E9F /* OnepayIPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4CB714BF0B2684299AEDE449244A9 /* OnepayIPG-dummy.m */; };
+		2307A32230E461D638C3FE4DA571BFA5 /* VisaMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D9740938BB01C7CD06253FDFFAFD3 /* VisaMasterVC.swift */; };
+		23F6E9045D443304F9873DACD8058B28 /* GatewayMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F064F82439CFCA9032018E9AEA3CAE /* GatewayMap.swift */; };
+		282272BC2936A2258E6217B690A5A15C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F123704D3DCE39810C481056E03EDD /* CFNetwork.framework */; };
+		2889733F8DD4B17D45FD7FBC39BD9443 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF26B93835DF62B9C3F103B235DE8C3 /* URLRequest+Alamofire.swift */; };
+		2ED85E2435D6E2AB6D1B648BC022BB93 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88330BD5985E0BF17FD596EB80A11E7 /* RequestInterceptor.swift */; };
+		33C1B24272D88C24E065A2B12A6B4B4B /* GatewayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2682C02397DECAF14EEDAF1B2D9D225 /* GatewayError.swift */; };
+		33C746598E588F2BBAF429037F5E92B5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EADF99D6605DEFFD5BB632C9FA0B0F /* Poppins-Regular.ttf */; };
+		38A3A8AF39590F3F39E7D714B12B69C6 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69732C778F2B3F527D0C72CAD669A2B4 /* Coding.swift */; };
+		38DAD65C968C5B6A422155F263A7B874 /* GatewayMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7DBA9A1DD9A56E151D32DD79DE876 /* GatewayMainVC.swift */; };
+		3BB1B762B933A7847B4DC115EA9EC8F9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5DE3D8ED87FC319A7BE432046DAED /* HTTPMethod.swift */; };
+		4333D11BB2B00D774732243745E7B214 /* PaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39F441084B34725F870FD40A8CA820 /* PaymentOptions.swift */; };
+		43A61168615485F96E5BE27C1F89F4C2 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D7DCCF174D744293FA06829CCF63C /* Poppins-Light.ttf */; };
+		43E1621A89D23224E1011AC0FB773BEB /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50552C21E6127198EC50F2584B9DA781 /* Poppins-SemiBold.ttf */; };
+		48F2026A1B2E133B1B9D855F3A9897A0 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F915DC160D86B93B380A606707D96A /* StringEncoding+Alamofire.swift */; };
+		49AAD549186408D052BA429CEA6783CD /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9597FEFB2CCC1C8D17AB74A21D05C41 /* Alamofire-dummy.m */; };
+		4DD74B41A0C9789F64F47ED40D49DA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */; };
+		4E74798F70ACECF1E4EDEE90C84F8DA5 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BABE98623F27661EFD05350F8B7C0 /* ProgressView.swift */; };
+		4FF00AD4EB037FCA09F5489F58E24261 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9A6FFB1A52AD185305684A224B15A /* RedirectHandler.swift */; };
+		55E562EE8A9ACC8AD9379202327D7B41 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2229358956DFDA788C831A9E8DFE5747 /* Alamofire.framework */; };
+		57C0B5A7CE5ACD3F8FEB1BA139120E25 /* OnepayIPG.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDC8ADE60F9E71240ADA3F03E4D8D63 /* OnepayIPG.storyboard */; };
+		58CBA96BE302E4EE73226DC560C51EAD /* CardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D43357770B1BCD88DD3A46EBD8141 /* CardTypes.swift */; };
+		5B2A14050DBDA5D48826FAC338E3A54B /* IPGErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA115C1B7FD3D396B0862B9842A51D /* IPGErrors.swift */; };
+		5D5F69EEEEB45EE270FB42AB6CC4115F /* MGPSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7BCECB790D6C66972BA8AFEB7B258B /* MGPSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EA0D07F185A53C2D4BE84D2F352754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */; };
+		6640065BE986A799DF8347E6FC2BD7C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */; };
+		6BDA58C049B13BAF8C93CF2CEF1FB605 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5624D40020D676EE510B55F3C249B8 /* BuildConfig.swift */; };
+		711CBC8E5646BB3715BFC06D0B496924 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0AF02CBF617FFB1DF8992864F3A34 /* Constant.swift */; };
+		72589B8F338DE0B7086840BD9B94B7CB /* GatewayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FD2D2D1BD8A7D1424FC4C506F536CB /* GatewayResult.swift */; };
+		73C01E0233A24A16CF5B64C8B5D2BAE5 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19564116A3DD99DF615299C175C2D68F /* AFError.swift */; };
+		76838F810D273BECC9D873F19313006F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD29454F42CFC4B0DE351A065BCCE2B /* Notifications.swift */; };
+		799F2770B0C4C80203DB4ED679E4591E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6AC1BBDBC0B0009C5AD820B1E9E1B /* Alert.swift */; };
+		79DFBC6373B1928FF7590FCB37A3E7F5 /* VisaMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D5AC52AA5BB0B8B6E7180C441B63C /* VisaMasterViewModel.swift */; };
+		7A46A7E137DEE4F5B43E123036A1B6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */; };
+		7B1BD4C6EEB469138FA7E59C7E5AEBA5 /* MGPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4B4150FB4EC7D58BEC3968AAD2EBB /* MGPSDK.framework */; };
+		7B7474194CE52B4C8F739B5283982A5F /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99802C1417C19076B8B1D0AFB31BF30B /* OperationQueue+Alamofire.swift */; };
+		7FEF07436109E116D49B007DED88C6A3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861FE9D50C52464CB2D500214B4FF326 /* Poppins-Medium.ttf */; };
+		808BF5E1DC3446655F6C27524A47D85D /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7AE439CFB6D85CB3D88093A6C60DC /* NetworkReachabilityManager.swift */; };
+		80DA21F0B42FF94A969F4604388B553E /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CBD695EF67F02C027B353CDBF1189 /* MultipartUpload.swift */; };
 		8BC215734663C1C31D2709B072DAB9BE /* Pods-OnepayIPG_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */; };
-		8CE491A9FBB6A86F394212AB4B95B735 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */; };
+		8CE491A9FBB6A86F394212AB4B95B735 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9AEB1430949BE1D8B2874BC5AA5F8 /* URLSessionConfiguration+Alamofire.swift */; };
 		8CFD0835EFA7EC9EC9359A760F609CBB /* Pods-OnepayIPG_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EFC8755736259C732BC7ECC1BA2B706 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */; };
-		8F00FA1E99A45364B22EB02A7AB637E0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */; };
-		959D654F44473B06F77FC7D13201CC89 /* VisaMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D5AC52AA5BB0B8B6E7180C441B63C /* VisaMasterViewModel.swift */; };
-		976299769FB667F40D01D98668438C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F401E181BEA002337E464DED414F440 /* Foundation.framework */; };
-		9A3CD88110ED21B981ED8C69B36C117E /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */; };
-		9EB9948B9573A2C6C11B8F6948C505AC /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */; };
-		A58D1EB9C4440E7D080C89D71ED43285 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */; };
-		A684A02773880E6FCC611C361FC0BC5B /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */; };
-		B951EE5D0EC8CB26E00D2E616642E314 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7277217573F275EDE62853DDC6AE /* Inter-Regular.ttf */; };
-		C006E65F0E816E74F160FF46D07A906F /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */; };
-		C29A552A5FD482E7DEE45B7D78D18432 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */; };
-		C93EB88F0690AC3514F551582738A1B0 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */; };
-		CD3E154C90658B55C77AB7506A7D79F8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0AF02CBF617FFB1DF8992864F3A34 /* Constant.swift */; };
-		DA0FE4521514E7619BFEDEBD5EF7218B /* IPGErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA115C1B7FD3D396B0862B9842A51D /* IPGErrors.swift */; };
-		DB29874D5C4731630E57FE9D27F98660 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */; };
-		E266B3169C95FA94C01F68AD17BC0A99 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */; };
-		E3A489990C62159EE511A99E88117957 /* OnepayIPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4CB714BF0B2684299AEDE449244A9 /* OnepayIPG-dummy.m */; };
-		E592C59CEF9BD2323FC2138769B7B33D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */; };
-		E643E31BB10DD24A7ABC334043093E29 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */; };
-		E680A5E4A260B6022F22AAC6D9B5CF12 /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6BF6455C5A7E615CD968CDCC46EF5 /* UtilityExtension.swift */; };
-		E9DBA7ABE1F7F010483A9D3EE7D8CB26 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637848096C1E040096D350A02F8E944 /* Response.swift */; };
-		ED1759977616E1E384E7E6F227EF8F42 /* OnepayIPGDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0C790FB187B8B1F121F2981972FB0 /* OnepayIPGDelegate.swift */; };
-		EEFD01D43F9B1BFA92CA64D9EBB34E5C /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */; };
-		EF2A321D2875A7EE00FB92DC /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A321C2875A7EE00FB92DC /* ProgressView.swift */; };
-		F2E76B6BDFB6A0BBD14AE56C00C79FFF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EADF99D6605DEFFD5BB632C9FA0B0F /* Poppins-Regular.ttf */; };
-		F3C2EF27B532BD6A1640B845E46E2487 /* 3DSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AB7C27B90CAB5975A399A0ED23FDA /* 3DSRequestData.swift */; };
-		F5C42CD3C63FC4B2B4F2A8DBB618BB2A /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */; };
-		F79BEE372A52C0D4C93D9083D31FA900 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */; };
-		FD81D776E10D664AC15E678E1C7E1D59 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */; };
+		8DA5BF4BCACE237E313F0205D2A87BAF /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04C28B57A2CA409E95E54013DA898D /* UtilityExtension.swift */; };
+		8EFC8755736259C732BC7ECC1BA2B706 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F66D0BFAC2C1A7E3B57078810559B /* Concurrency.swift */; };
+		8F00FA1E99A45364B22EB02A7AB637E0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDEE0CCB310D4B8E35F0DAADE4E4E2E /* URLConvertible+URLRequestConvertible.swift */; };
+		947EC34D09E012A87570E665A8920197 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443675617F2D5656EEBE486EAFDF7E6 /* BaseService.swift */; };
+		99FFFAD84C69D8730BECE41E8FB4B18F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA7277217573F275EDE62853DDC6AE /* Inter-Regular.ttf */; };
+		9A3CD88110ED21B981ED8C69B36C117E /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F683BF61AA5AEA16A098B5BF7463AD /* ResponseSerialization.swift */; };
+		9EB9948B9573A2C6C11B8F6948C505AC /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA39C703096CDDAD7D0261C0000647F3 /* EventMonitor.swift */; };
+		A58D1EB9C4440E7D080C89D71ED43285 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1638813911562E9AB7BA306061B29321 /* URLEncodedFormEncoder.swift */; };
+		A5CEC1F2CE98F46DAF5C70B1F163775A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB4FC14E10E444488851A584FC6030 /* APIService.swift */; };
+		A684A02773880E6FCC611C361FC0BC5B /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DCDC13546AB4E04AE0DDCC0E46CCC5 /* SessionDelegate.swift */; };
+		A91E583D3A821626FD2987099D70A60C /* OnepayIPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3222AD4BF4E0017E404F6999C649380A /* OnepayIPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8847D2A637ACA14F3CC693AFFB6BD1 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C4E258F02B0553D66DCA7067577C7 /* Configurations.swift */; };
+		AEC5AE0F43DC467ED029A1AA462E252E /* Gateway+URLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF7E749A610557E85DB13E28B109F6 /* Gateway+URLSessionDelegate.swift */; };
+		BF81BED435D90D2A6ADB0827882AB94E /* 3DSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AB7C27B90CAB5975A399A0ED23FDA /* 3DSRequestData.swift */; };
+		C006E65F0E816E74F160FF46D07A906F /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252B132C3CD4BFAE7AEBAE2664E2145 /* Result+Alamofire.swift */; };
+		C29A552A5FD482E7DEE45B7D78D18432 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D8340F563ADBA39632E0EAB800C59 /* Validation.swift */; };
+		C6594B814923B6D300DCD934E3CEC1FC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E02928D0BF1B9A1231406C32BD34 /* HTTPMethod.swift */; };
+		C93EB88F0690AC3514F551582738A1B0 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12621BF875853F77AAF829C3A97C49 /* ParameterEncoder.swift */; };
+		CCAAF96221A9B6B79E87D313AB437274 /* OnepayIPGDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0C790FB187B8B1F121F2981972FB0 /* OnepayIPGDelegate.swift */; };
+		CFD685D2BB120C721DBBEEDFD2CA7CC6 /* VMFieldsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A38392061A3117DF3F5EAAED3030B /* VMFieldsConfig.swift */; };
+		D0D49C1FA04609396571D04A00066D76 /* Gateway3DSecureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA545569B8DCB8EF4E5705103BBF16 /* Gateway3DSecureViewController.swift */; };
+		DB29874D5C4731630E57FE9D27F98660 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566DE9C901DD1DA56CA17F7F8934321 /* Protected.swift */; };
+		DE0363A3B0DA1C2C2E68AE8B075A0512 /* CardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB24A1C56422265584856A7EAE2A9C3 /* CardFormatter.swift */; };
+		E0F69DD76E854FD1B2325974001F4F84 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825C067D0D285E522FCBE36292ADF8A7 /* Media.xcassets */; };
+		E266B3169C95FA94C01F68AD17BC0A99 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4D91420C5C4003A2B2E23D7CE912E /* RetryPolicy.swift */; };
+		E592C59CEF9BD2323FC2138769B7B33D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A01879BB1BB2F7462BBEDA6BB3CE8B /* MultipartFormData.swift */; };
+		E643E31BB10DD24A7ABC334043093E29 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5383E5E766DB46B93854C29FD8F6F4 /* HTTPHeaders.swift */; };
+		E9DBA7ABE1F7F010483A9D3EE7D8CB26 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CCE620841EE47B34FC0794ECFC6DD /* Response.swift */; };
+		EDC28460C119AC284F4B492C4D92EBEF /* Pods-OnepayIPG_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFD01D43F9B1BFA92CA64D9EBB34E5C /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74004C18481B6AD24DB62BC40FC8174 /* AuthenticationInterceptor.swift */; };
+		EFDB436C2878512F00DBFFF3 /* 3DSAuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB436B2878512F00DBFFF3 /* 3DSAuthResult.swift */; };
+		EFF4E902642A66DB182897C47E8C166F /* MPGSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F5FBC1BB4FB3C56215B2A98DF654C /* MPGSDK.swift */; };
+		EFFEAE83BC549ACA5B3330319C894934 /* GatewayRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440B85F14555F0C86DEF6F443114C21 /* GatewayRegion.swift */; };
+		F3D63DF0DE2F95F3382EA2D97093F742 /* MGPSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678528689B289CE5ACAD01BBD3394DCA /* MGPSDK-dummy.m */; };
+		F5819F7D9700F097600F1351820769A9 /* Pods-OnepayIPG_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */; };
+		F5C42CD3C63FC4B2B4F2A8DBB618BB2A /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B1B2CE65D1AF9F5A30E753E4F0050 /* AlamofireExtended.swift */; };
+		F79BEE372A52C0D4C93D9083D31FA900 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442AC6CD6F1B76A7BE7840FD026E8E7 /* ParameterEncoding.swift */; };
+		F8035C263316C317CC38025171DA2836 /* DataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA61A9549AD61CEFAC40E7497E67B80 /* DataWrapper.swift */; };
+		FB7DA4AE7B035AC2042CE58CC83BAF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */; };
+		FD81D776E10D664AC15E678E1C7E1D59 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F005559B131BF19C1339594E8A671E /* DispatchQueue+Alamofire.swift */; };
+		FFC065DB2B9F64F5CE3D8BACC4C6F4EA /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119C101895E448CD828D0F712CB750E /* Gateway.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5E4C37FAE5126A61CAE1BEA3094A281C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 654970528F0A17A844BD1E147B10B8DB;
-			remoteInfo = "Pods-OnepayIPG_Example";
-		};
-		5E6331C4BD68C4C4A6482D318906E181 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0A79E3C1E2694A36DDFDEF1270515D9;
-			remoteInfo = OnepayIPG;
-		};
-		8E352D3767DB634C7C0D6413B1862100 /* PBXContainerItemProxy */ = {
+		0EC62ACA2E9384247F24717D17DBEABF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		A9A4BA6F89BD9C83EEFF8237F2E12CFB /* PBXContainerItemProxy */ = {
+		4CFD1A2627706F9F4C13A77D7E190578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9551F217E295C55FDF5DDD2FDFC7D1A;
+			remoteInfo = MGPSDK;
+		};
+		888EE7BF17908695E6DD1CE3712A4FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A79E3C1E2694A36DDFDEF1270515D9;
+			remoteInfo = OnepayIPG;
+		};
+		A77CC01234842602B4B67C1BA6D53989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654970528F0A17A844BD1E147B10B8DB;
+			remoteInfo = "Pods-OnepayIPG_Example";
+		};
+		E0A6ED75A97DE129648ED2F66421C230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9551F217E295C55FDF5DDD2FDFC7D1A;
+			remoteInfo = MGPSDK;
+		};
+		E42026D68797226BB83197DE943DE42D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -119,120 +149,151 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000D18744CA13AF930119EF4E97E0B5B /* MGPSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGPSDK-Info.plist"; sourceTree = "<group>"; };
+		00A9A6FFB1A52AD185305684A224B15A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		00AF7E749A610557E85DB13E28B109F6 /* Gateway+URLSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gateway+URLSessionDelegate.swift"; path = "Sources/Gateway+URLSessionDelegate.swift"; sourceTree = "<group>"; };
 		01D36504285678BCF945D346A8CC9D70 /* Pods-OnepayIPG_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Tests-dummy.m"; sourceTree = "<group>"; };
-		02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		02B9AEB1430949BE1D8B2874BC5AA5F8 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		03DCDC13546AB4E04AE0DDCC0E46CCC5 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		042D9740938BB01C7CD06253FDFFAFD3 /* VisaMasterVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisaMasterVC.swift; sourceTree = "<group>"; };
 		0A3D7DCCF174D744293FA06829CCF63C /* Poppins-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
-		0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		0F04C28B57A2CA409E95E54013DA898D /* UtilityExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
+		1226E02928D0BF1B9A1231406C32BD34 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/HTTPMethod.swift; sourceTree = "<group>"; };
 		135134FFD0864E976B564ABAA51796D9 /* Pods-OnepayIPG_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnepayIPG_Example-dummy.m"; sourceTree = "<group>"; };
-		15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1638813911562E9AB7BA306061B29321 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		18CC675253ED567F1712E5BA73029256 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		19564116A3DD99DF615299C175C2D68F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		1B10780B2B335448C4CF91BE93DC39E4 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		1CCA7277217573F275EDE62853DDC6AE /* Inter-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		1CFB4FC14E10E444488851A584FC6030 /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = Source/APIService.swift; sourceTree = "<group>"; };
 		1F171DF22B2D4E5D737BFCB502B8D227 /* Pods-OnepayIPG_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-Info.plist"; sourceTree = "<group>"; };
-		232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		2024F5F30249ECC4A8206BD32128E5BD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		2229358956DFDA788C831A9E8DFE5747 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		264D05077F526AF2C1137AAF7BC1B129 /* MGPSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGPSDK.release.xcconfig; sourceTree = "<group>"; };
 		27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnepayIPG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		27D9F3D7E8BF4F493C1C4689C1573ADC /* MGPSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGPSDK-prefix.pch"; sourceTree = "<group>"; };
+		27EFC51633AE7F4C8BDF2D5B7F69B755 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2DE712FBE2A0F9520E8497BE4529860C /* MGPSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGPSDK.debug.xcconfig; sourceTree = "<group>"; };
 		301D5AC52AA5BB0B8B6E7180C441B63C /* VisaMasterViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisaMasterViewModel.swift; sourceTree = "<group>"; };
 		3222AD4BF4E0017E404F6999C649380A /* OnepayIPG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-umbrella.h"; sourceTree = "<group>"; };
 		327A4CDC42426AC0D5D01C74EDE5F5C5 /* Pods-OnepayIPG_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnepayIPG_Example-frameworks.sh"; sourceTree = "<group>"; };
-		32BD7B93FEA70BDFD057550D07FA7961 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		3B0D97FB483508422ACE73BA88223F05 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		3F401E181BEA002337E464DED414F440 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3440B85F14555F0C86DEF6F443114C21 /* GatewayRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GatewayRegion.swift; path = Sources/GatewayRegion.swift; sourceTree = "<group>"; };
+		3894633B4F25CACC36904BAC17539751 /* MGPSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGPSDK.modulemap; sourceTree = "<group>"; };
+		3A12621BF875853F77AAF829C3A97C49 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		403737E6C06DD315AEDF0DC0DDFAAACF /* Pods-OnepayIPG_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		41A7DBA9A1DD9A56E151D32DD79DE876 /* GatewayMainVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GatewayMainVC.swift; sourceTree = "<group>"; };
-		42D611F243BC3328826FE250D806EC26 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		4391C88E84EB8E7CDF7F01AAA6AE3316 /* Pods-OnepayIPG_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Tests.modulemap"; sourceTree = "<group>"; };
 		44EADF99D6605DEFFD5BB632C9FA0B0F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
-		4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		4BE4B4150FB4EC7D58BEC3968AAD2EBB /* MGPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5B9767C516877810A9A5A1C8F6E0CC /* OnepayIPG.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OnepayIPG.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50552C21E6127198EC50F2584B9DA781 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		50C7AE439CFB6D85CB3D88093A6C60DC /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		543F66D0BFAC2C1A7E3B57078810559B /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
 		54717DE6EE374793C5D5EEE8E8084261 /* Pods-OnepayIPG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		559D4263D0821CEF7ECB0792148E70D5 /* VMFieldsConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VMFieldsConfig.swift; sourceTree = "<group>"; };
 		56A4CB714BF0B2684299AEDE449244A9 /* OnepayIPG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnepayIPG-dummy.m"; sourceTree = "<group>"; };
-		5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5BF26B93835DF62B9C3F103B235DE8C3 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		5E066046F3158AD191B8FFAEE3F49090 /* CardFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardFormatter.swift; sourceTree = "<group>"; };
+		6252B132C3CD4BFAE7AEBAE2664E2145 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		634D8340F563ADBA39632E0EAB800C59 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		63A80E2C6BF538235B8535F099F25969 /* Pods-OnepayIPG_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnepayIPG_Example.modulemap"; sourceTree = "<group>"; };
 		666872BFFB435D0269C75ABEE91CF8B4 /* Pods-OnepayIPG_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-Info.plist"; sourceTree = "<group>"; };
-		6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
-		6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		678528689B289CE5ACAD01BBD3394DCA /* MGPSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGPSDK-dummy.m"; sourceTree = "<group>"; };
+		68F915DC160D86B93B380A606707D96A /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		69732C778F2B3F527D0C72CAD669A2B4 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/Coding.swift; sourceTree = "<group>"; };
+		6BFD67C22B7BA6606F52DEA31264CBE1 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		6C99DFAE86B95CC2BA67F0BC54F434FD /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		6CB24A1C56422265584856A7EAE2A9C3 /* CardFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardFormatter.swift; sourceTree = "<group>"; };
+		7119C101895E448CD828D0F712CB750E /* Gateway.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gateway.swift; path = Sources/Gateway.swift; sourceTree = "<group>"; };
+		719B1B2CE65D1AF9F5A30E753E4F0050 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		723328E261DFC7D68A63CC0BF13E762A /* OnepayIPG-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnepayIPG-Info.plist"; sourceTree = "<group>"; };
 		762AB7C27B90CAB5975A399A0ED23FDA /* 3DSRequestData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = 3DSRequestData.swift; sourceTree = "<group>"; };
+		77A01879BB1BB2F7462BBEDA6BB3CE8B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		791A38392061A3117DF3F5EAAED3030B /* VMFieldsConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VMFieldsConfig.swift; sourceTree = "<group>"; };
+		7FD29454F42CFC4B0DE351A065BCCE2B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		824007963EDEF6600D04C5EBC46A4BD9 /* Pods-OnepayIPG_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		825C067D0D285E522FCBE36292ADF8A7 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Source/Media.xcassets; sourceTree = "<group>"; };
+		8566DE9C901DD1DA56CA17F7F8934321 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		861FE9D50C52464CB2D500214B4FF326 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		8637848096C1E040096D350A02F8E944 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		8A2D43357770B1BCD88DD3A46EBD8141 /* CardTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardTypes.swift; sourceTree = "<group>"; };
-		8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8A5624D40020D676EE510B55F3C249B8 /* BuildConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuildConfig.swift; path = Sources/BuildConfig.swift; sourceTree = "<group>"; };
 		8DB2A6DB2717796639534F6BA754C4E2 /* Pods-OnepayIPG_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnepayIPG_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		8E9F5FBC1BB4FB3C56215B2A98DF654C /* MPGSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPGSDK.swift; path = Sources/MPGSDK.swift; sourceTree = "<group>"; };
+		8ECA545569B8DCB8EF4E5705103BBF16 /* Gateway3DSecureViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gateway3DSecureViewController.swift; path = Sources/Gateway3DSecureViewController.swift; sourceTree = "<group>"; };
+		8ED4D91420C5C4003A2B2E23D7CE912E /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91762C69C08629CBFD921AEBACE63AED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		95F6BF6455C5A7E615CD968CDCC46EF5 /* UtilityExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
+		99802C1417C19076B8B1D0AFB31BF30B /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		99F005559B131BF19C1339594E8A671E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9A1AA125696F6F2B71E3356C10B226BA /* Pods-OnepayIPG_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF5DE3D8ED87FC319A7BE432046DAED /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		A0C853D771DBCE55972D26D5BBAD8D7A /* FrimiVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrimiVC.swift; sourceTree = "<group>"; };
-		A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		A74004C18481B6AD24DB62BC40FC8174 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		A7DA115C1B7FD3D396B0862B9842A51D /* IPGErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPGErrors.swift; sourceTree = "<group>"; };
+		A7F123704D3DCE39810C481056E03EDD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A88330BD5985E0BF17FD596EB80A11E7 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		A9A0C790FB187B8B1F121F2981972FB0 /* OnepayIPGDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnepayIPGDelegate.swift; path = Source/OnepayIPGDelegate.swift; sourceTree = "<group>"; };
+		AC737FA87B3A2536D103C9E541696C06 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnepayIPG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA61A9549AD61CEFAC40E7497E67B80 /* DataWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataWrapper.swift; path = Source/DataWrapper.swift; sourceTree = "<group>"; };
 		B2FC3331EDAB1773A5A2EA6A5495D2D3 /* OnepayIPG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnepayIPG.modulemap; sourceTree = "<group>"; };
-		B4087576FBC9EFA1CEA4E39B3D0A7E76 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B3BCFE3DCF523CD20885791BEA9B9AED /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		B78123894BFA451129AAF42425B25B84 /* Pods-OnepayIPG_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BBC2DF2C50562A5C992111D38D5B1CF7 /* MainPVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPVC.swift; sourceTree = "<group>"; };
 		BD17FAFF428E6EAAC925DB9CB02A52B8 /* Pods-OnepayIPG_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnepayIPG_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		BFDEE0CCB310D4B8E35F0DAADE4E4E2E /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C3EB88F931C20C644082E9A53C7997A3 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C443675617F2D5656EEBE486EAFDF7E6 /* BaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseService.swift; path = Source/BaseService.swift; sourceTree = "<group>"; };
 		C560A4FC231E59B6046CE0486C24C7A8 /* OnepayIPG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnepayIPG-prefix.pch"; sourceTree = "<group>"; };
 		C65C4E258F02B0553D66DCA7067577C7 /* Configurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
 		C6C0AF02CBF617FFB1DF8992864F3A34 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Source/Constant.swift; sourceTree = "<group>"; };
-		CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		C9597FEFB2CCC1C8D17AB74A21D05C41 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C98B58D09F52A5F7490D06DE6F0693AE /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		C9DAD4DA65D9B33BD89E2312E445C1A1 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		CA7BCECB790D6C66972BA8AFEB7B258B /* MGPSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGPSDK-umbrella.h"; sourceTree = "<group>"; };
+		CF5383E5E766DB46B93854C29FD8F6F4 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		CFF1553A03C5646AB471DDD61A2072F5 /* OnepayIPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.debug.xcconfig; sourceTree = "<group>"; };
-		D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		D0FF301302A2A77E95697F2B5692FA5E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2682C02397DECAF14EEDAF1B2D9D225 /* GatewayError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GatewayError.swift; path = Sources/GatewayError.swift; sourceTree = "<group>"; };
 		D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnepayIPG_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		DA39C703096CDDAD7D0261C0000647F3 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		DBDC8ADE60F9E71240ADA3F03E4D8D63 /* OnepayIPG.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = OnepayIPG.storyboard; path = Source/OnepayIPG.storyboard; sourceTree = "<group>"; };
-		DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E45304A57624D5F75DE2C91A59049928 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		E5F064F82439CFCA9032018E9AEA3CAE /* GatewayMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GatewayMap.swift; path = Sources/GatewayMap.swift; sourceTree = "<group>"; };
 		E9CFC25D5E7CDBA86FB7F6EA99C4EA15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE0CCE620841EE47B34FC0794ECFC6DD /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		EE6CBD695EF67F02C027B353CDBF1189 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		EEF6AC1BBDBC0B0009C5AD820B1E9E1B /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		EF113AB29A4E50878272B26079F6CF4E /* OnepayIPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnepayIPG.release.xcconfig; sourceTree = "<group>"; };
-		EF2A321C2875A7EE00FB92DC /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		EFDB436B2878512F00DBFFF3 /* 3DSAuthResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSAuthResult.swift; sourceTree = "<group>"; };
+		F2FD2D2D1BD8A7D1424FC4C506F536CB /* GatewayResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GatewayResult.swift; path = Sources/GatewayResult.swift; sourceTree = "<group>"; };
 		F3DDED5551F0E33B76A8AAD3399E4784 /* Pods-OnepayIPG_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnepayIPG_Example-umbrella.h"; sourceTree = "<group>"; };
-		F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		F442AC6CD6F1B76A7BE7840FD026E8E7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F5F683BF61AA5AEA16A098B5BF7463AD /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		F61BABE98623F27661EFD05350F8B7C0 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		F78F3B552BFFC5C766D816B02873DAE5 /* MGPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA39F441084B34725F870FD40A8CA820 /* PaymentOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentOptions.swift; sourceTree = "<group>"; };
 		FABF98340369AE7700E71E7650B61E4C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
-		FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		FDB3FE3564D815310EEB1E8045879D50 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		FE34632B213E4742F2B1C5B18E25A878 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		556ECC8B00B28CA7A95F657066E89B28 /* Frameworks */ = {
+		21C26D95CE30AFFE0DB61B5FF27D66F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0E9EBF289BDD0490E25890F47EC2FB /* Foundation.framework in Frameworks */,
+				FB7DA4AE7B035AC2042CE58CC83BAF52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B638ADB94BF2A912CCCAE0041450BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E562EE8A9ACC8AD9379202327D7B41 /* Alamofire.framework in Frameworks */,
+				6640065BE986A799DF8347E6FC2BD7C1 /* Foundation.framework in Frameworks */,
+				7B1BD4C6EEB469138FA7E59C7E5AEBA5 /* MGPSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,21 +305,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0EEB731DBB9958097813B66BD286313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A46A7E137DEE4F5B43E123036A1B6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26BBE96D9FD5466520B1EA6CD17EFF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				282272BC2936A2258E6217B690A5A15C /* CFNetwork.framework in Frameworks */,
 				4DD74B41A0C9789F64F47ED40D49DA46 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31976A24F27C37BC71EC1AF6B3A4E89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74DAD001EA48FFB58D18F8ED933E75EB /* Alamofire.framework in Frameworks */,
-				976299769FB667F40D01D98668438C18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,28 +349,23 @@
 			path = Source/ViewModels;
 			sourceTree = "<group>";
 		};
-		2B0810928A6319057A946D6BCAD4DD5E /* Support Files */ = {
+		18A439E5AEE7FA22164EB62252A0A7B7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */,
-				F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */,
-				9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */,
-				0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */,
-				232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */,
-				A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */,
-				DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */,
+				791A38392061A3117DF3F5EAAED3030B /* VMFieldsConfig.swift */,
+				2F6D0600CAE8ECF1615155C3268BC818 /* Utility */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = Extensions;
+			path = Source/Extensions;
 			sourceTree = "<group>";
 		};
-		33AF62E8BF62555905623FE6877FDC81 /* Utility */ = {
+		2F6D0600CAE8ECF1615155C3268BC818 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				EF2A321C2875A7EE00FB92DC /* ProgressView.swift */,
-				B4087576FBC9EFA1CEA4E39B3D0A7E76 /* Alert.swift */,
-				5E066046F3158AD191B8FFAEE3F49090 /* CardFormatter.swift */,
-				95F6BF6455C5A7E615CD968CDCC46EF5 /* UtilityExtension.swift */,
+				EEF6AC1BBDBC0B0009C5AD820B1E9E1B /* Alert.swift */,
+				6CB24A1C56422265584856A7EAE2A9C3 /* CardFormatter.swift */,
+				F61BABE98623F27661EFD05350F8B7C0 /* ProgressView.swift */,
+				0F04C28B57A2CA409E95E54013DA898D /* UtilityExtension.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -323,6 +378,7 @@
 				C65C4E258F02B0553D66DCA7067577C7 /* Configurations.swift */,
 				A7DA115C1B7FD3D396B0862B9842A51D /* IPGErrors.swift */,
 				FA39F441084B34725F870FD40A8CA820 /* PaymentOptions.swift */,
+				EFDB436B2878512F00DBFFF3 /* 3DSAuthResult.swift */,
 			);
 			name = Models;
 			path = Source/Models;
@@ -344,13 +400,23 @@
 			path = "Target Support Files/Pods-OnepayIPG_Tests";
 			sourceTree = "<group>";
 		};
-		4BF62439A2FE1F58E9E704216CF2CE03 /* iOS */ = {
+		4BC5F4278EBC12D54C6E9132DB42C634 /* MGPSDK */ = {
 			isa = PBXGroup;
 			children = (
-				32BD7B93FEA70BDFD057550D07FA7961 /* CFNetwork.framework */,
-				3F401E181BEA002337E464DED414F440 /* Foundation.framework */,
+				8A5624D40020D676EE510B55F3C249B8 /* BuildConfig.swift */,
+				69732C778F2B3F527D0C72CAD669A2B4 /* Coding.swift */,
+				7119C101895E448CD828D0F712CB750E /* Gateway.swift */,
+				00AF7E749A610557E85DB13E28B109F6 /* Gateway+URLSessionDelegate.swift */,
+				8ECA545569B8DCB8EF4E5705103BBF16 /* Gateway3DSecureViewController.swift */,
+				D2682C02397DECAF14EEDAF1B2D9D225 /* GatewayError.swift */,
+				E5F064F82439CFCA9032018E9AEA3CAE /* GatewayMap.swift */,
+				3440B85F14555F0C86DEF6F443114C21 /* GatewayRegion.swift */,
+				F2FD2D2D1BD8A7D1424FC4C506F536CB /* GatewayResult.swift */,
+				1226E02928D0BF1B9A1231406C32BD34 /* HTTPMethod.swift */,
+				8E9F5FBC1BB4FB3C56215B2A98DF654C /* MPGSDK.swift */,
+				E4B58DC7151D5171134A24AD375EFE59 /* Support Files */,
 			);
-			name = iOS;
+			path = MGPSDK;
 			sourceTree = "<group>";
 		};
 		72FECDFB8CFA400CDAC5A31480213777 /* Resources */ = {
@@ -363,78 +429,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7387D4399825E9EF773898F33492DBC7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */,
-				90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */,
-				AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8B7A79262BFE6D94671D449787F3AAA9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D0FF301302A2A77E95697F2B5692FA5E /* Alamofire.framework */,
-				4BF62439A2FE1F58E9E704216CF2CE03 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8E167B633C802817B2BE74255F6EE178 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				91762C69C08629CBFD921AEBACE63AED /* AFError.swift */,
-				8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */,
-				BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */,
-				15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */,
-				CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */,
-				42D611F243BC3328826FE250D806EC26 /* Combine.swift */,
-				F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */,
-				E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */,
-				A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */,
-				182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */,
-				A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */,
-				19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */,
-				47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */,
-				D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */,
-				1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */,
-				9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */,
-				4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */,
-				D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */,
-				C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */,
-				50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */,
-				5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */,
-				5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */,
-				6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */,
-				8637848096C1E040096D350A02F8E944 /* Response.swift */,
-				2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */,
-				F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */,
-				6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */,
-				717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */,
-				3B0D97FB483508422ACE73BA88223F05 /* Session.swift */,
-				DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */,
-				9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */,
-				3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */,
-				DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */,
-				53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */,
-				FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */,
-				02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */,
-				2B0810928A6319057A946D6BCAD4DD5E /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		9F4B67447122FC6BA6080EAA9B88A719 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8E167B633C802817B2BE74255F6EE178 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		A1E25AD9824F1B8DF1D75A984D3242E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,6 +437,15 @@
 				E9CFC25D5E7CDBA86FB7F6EA99C4EA15 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A8FE66197504893FE89CF050C5961959 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDDE4A0AD43CEDC610E970703B92E6 /* Alamofire */,
+				4BC5F4278EBC12D54C6E9132DB42C634 /* MGPSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BBB89E144CD4B7BDD3AFE327EFACF412 /* Fonts */ = {
@@ -459,14 +462,28 @@
 			path = Source/Fonts;
 			sourceTree = "<group>";
 		};
-		CEAC7411BF47879E222CAD56087FB7A0 /* Extensions */ = {
+		C2ADAFA66A6268FC04F1445036B2E466 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				559D4263D0821CEF7ECB0792148E70D5 /* VMFieldsConfig.swift */,
-				33AF62E8BF62555905623FE6877FDC81 /* Utility */,
+				27EFC51633AE7F4C8BDF2D5B7F69B755 /* Alamofire.modulemap */,
+				C9597FEFB2CCC1C8D17AB74A21D05C41 /* Alamofire-dummy.m */,
+				C98B58D09F52A5F7490D06DE6F0693AE /* Alamofire-Info.plist */,
+				C3EB88F931C20C644082E9A53C7997A3 /* Alamofire-prefix.pch */,
+				2024F5F30249ECC4A8206BD32128E5BD /* Alamofire-umbrella.h */,
+				1B10780B2B335448C4CF91BE93DC39E4 /* Alamofire.debug.xcconfig */,
+				C9DAD4DA65D9B33BD89E2312E445C1A1 /* Alamofire.release.xcconfig */,
 			);
-			name = Extensions;
-			path = Source/Extensions;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		C2E9A799971B3A04953AFC5E7E4926C9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7F123704D3DCE39810C481056E03EDD /* CFNetwork.framework */,
+				DC443E4C0C80A94BBE35A5C922BCA581 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -474,9 +491,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				FC805E179E9B739DF10912A7568C3838 /* Development Pods */,
-				8B7A79262BFE6D94671D449787F3AAA9 /* Frameworks */,
-				9F4B67447122FC6BA6080EAA9B88A719 /* Pods */,
-				7387D4399825E9EF773898F33492DBC7 /* Products */,
+				D97F118A3E922FF9C45CB83D68F1CB7D /* Frameworks */,
+				A8FE66197504893FE89CF050C5961959 /* Pods */,
+				DA654DABC70E38FEDD3374B45197373C /* Products */,
 				F58382D43DD138B5CA6071B3AA10BA0F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -489,7 +506,7 @@
 				C6C0AF02CBF617FFB1DF8992864F3A34 /* Constant.swift */,
 				ADA61A9549AD61CEFAC40E7497E67B80 /* DataWrapper.swift */,
 				A9A0C790FB187B8B1F121F2981972FB0 /* OnepayIPGDelegate.swift */,
-				CEAC7411BF47879E222CAD56087FB7A0 /* Extensions */,
+				18A439E5AEE7FA22164EB62252A0A7B7 /* Extensions */,
 				396CE470519C5B4C3B073ED968197B64 /* Models */,
 				A1E25AD9824F1B8DF1D75A984D3242E5 /* Pod */,
 				72FECDFB8CFA400CDAC5A31480213777 /* Resources */,
@@ -499,6 +516,28 @@
 			);
 			name = OnepayIPG;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D97F118A3E922FF9C45CB83D68F1CB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2229358956DFDA788C831A9E8DFE5747 /* Alamofire.framework */,
+				4BE4B4150FB4EC7D58BEC3968AAD2EBB /* MGPSDK.framework */,
+				C2E9A799971B3A04953AFC5E7E4926C9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA654DABC70E38FEDD3374B45197373C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				F78F3B552BFFC5C766D816B02873DAE5 /* MGPSDK.framework */,
+				27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */,
+				90908BB09D699F6DDB6376CAF202D714 /* Pods_OnepayIPG_Example.framework */,
+				AD552ED1AC2D26E61F5E1675F58B96DE /* Pods_OnepayIPG_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DF0AC3EB6FA09564E9C2A445EFF868C3 /* Views */ = {
@@ -511,6 +550,65 @@
 			);
 			name = Views;
 			path = Source/Views;
+			sourceTree = "<group>";
+		};
+		E4B58DC7151D5171134A24AD375EFE59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3894633B4F25CACC36904BAC17539751 /* MGPSDK.modulemap */,
+				678528689B289CE5ACAD01BBD3394DCA /* MGPSDK-dummy.m */,
+				000D18744CA13AF930119EF4E97E0B5B /* MGPSDK-Info.plist */,
+				27D9F3D7E8BF4F493C1C4689C1573ADC /* MGPSDK-prefix.pch */,
+				CA7BCECB790D6C66972BA8AFEB7B258B /* MGPSDK-umbrella.h */,
+				2DE712FBE2A0F9520E8497BE4529860C /* MGPSDK.debug.xcconfig */,
+				264D05077F526AF2C1137AAF7BC1B129 /* MGPSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGPSDK";
+			sourceTree = "<group>";
+		};
+		E7CDDE4A0AD43CEDC610E970703B92E6 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				19564116A3DD99DF615299C175C2D68F /* AFError.swift */,
+				6C99DFAE86B95CC2BA67F0BC54F434FD /* Alamofire.swift */,
+				719B1B2CE65D1AF9F5A30E753E4F0050 /* AlamofireExtended.swift */,
+				A74004C18481B6AD24DB62BC40FC8174 /* AuthenticationInterceptor.swift */,
+				B3BCFE3DCF523CD20885791BEA9B9AED /* CachedResponseHandler.swift */,
+				18CC675253ED567F1712E5BA73029256 /* Combine.swift */,
+				543F66D0BFAC2C1A7E3B57078810559B /* Concurrency.swift */,
+				99F005559B131BF19C1339594E8A671E /* DispatchQueue+Alamofire.swift */,
+				DA39C703096CDDAD7D0261C0000647F3 /* EventMonitor.swift */,
+				CF5383E5E766DB46B93854C29FD8F6F4 /* HTTPHeaders.swift */,
+				9DF5DE3D8ED87FC319A7BE432046DAED /* HTTPMethod.swift */,
+				77A01879BB1BB2F7462BBEDA6BB3CE8B /* MultipartFormData.swift */,
+				EE6CBD695EF67F02C027B353CDBF1189 /* MultipartUpload.swift */,
+				50C7AE439CFB6D85CB3D88093A6C60DC /* NetworkReachabilityManager.swift */,
+				7FD29454F42CFC4B0DE351A065BCCE2B /* Notifications.swift */,
+				99802C1417C19076B8B1D0AFB31BF30B /* OperationQueue+Alamofire.swift */,
+				3A12621BF875853F77AAF829C3A97C49 /* ParameterEncoder.swift */,
+				F442AC6CD6F1B76A7BE7840FD026E8E7 /* ParameterEncoding.swift */,
+				8566DE9C901DD1DA56CA17F7F8934321 /* Protected.swift */,
+				00A9A6FFB1A52AD185305684A224B15A /* RedirectHandler.swift */,
+				FDB3FE3564D815310EEB1E8045879D50 /* Request.swift */,
+				A88330BD5985E0BF17FD596EB80A11E7 /* RequestInterceptor.swift */,
+				E45304A57624D5F75DE2C91A59049928 /* RequestTaskMap.swift */,
+				EE0CCE620841EE47B34FC0794ECFC6DD /* Response.swift */,
+				F5F683BF61AA5AEA16A098B5BF7463AD /* ResponseSerialization.swift */,
+				6252B132C3CD4BFAE7AEBAE2664E2145 /* Result+Alamofire.swift */,
+				8ED4D91420C5C4003A2B2E23D7CE912E /* RetryPolicy.swift */,
+				AC737FA87B3A2536D103C9E541696C06 /* ServerTrustEvaluation.swift */,
+				6BFD67C22B7BA6606F52DEA31264CBE1 /* Session.swift */,
+				03DCDC13546AB4E04AE0DDCC0E46CCC5 /* SessionDelegate.swift */,
+				68F915DC160D86B93B380A606707D96A /* StringEncoding+Alamofire.swift */,
+				BFDEE0CCB310D4B8E35F0DAADE4E4E2E /* URLConvertible+URLRequestConvertible.swift */,
+				1638813911562E9AB7BA306061B29321 /* URLEncodedFormEncoder.swift */,
+				5BF26B93835DF62B9C3F103B235DE8C3 /* URLRequest+Alamofire.swift */,
+				02B9AEB1430949BE1D8B2874BC5AA5F8 /* URLSessionConfiguration+Alamofire.swift */,
+				634D8340F563ADBA39632E0EAB800C59 /* Validation.swift */,
+				C2ADAFA66A6268FC04F1445036B2E466 /* Support Files */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		F58382D43DD138B5CA6071B3AA10BA0F /* Targets Support Files */ = {
@@ -550,11 +648,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		024C91DDEED844BB346F6A2A8FA03428 /* Headers */ = {
+		0885DC186AD4060EA2F6EAC65C2106A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3583EE917F8566A235BE87667810002E /* Pods-OnepayIPG_Example-umbrella.h in Headers */,
+				EDC28460C119AC284F4B492C4D92EBEF /* Pods-OnepayIPG_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260891E5AC31C4706F095DE05CC9BC36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91E583D3A821626FD2987099D70A60C /* OnepayIPG-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,11 +680,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE010E0E260F39AC8DB2FADBFEDC60D2 /* Headers */ = {
+		FAF37C327E4F8863CC40ED3F7B93CDA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF82BF989FBDA452D6ED8FD61AD110F /* OnepayIPG-umbrella.h in Headers */,
+				5D5F69EEEEB45EE270FB42AB6CC4115F /* MGPSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +703,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F958102A0CCA8116D691137BAC50B98B /* PBXTargetDependency */,
+				BD63ACBCA12F785679FBB001E0E58623 /* PBXTargetDependency */,
 			);
 			name = "Pods-OnepayIPG_Tests";
 			productName = "Pods-OnepayIPG_Tests";
@@ -606,18 +712,19 @@
 		};
 		654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B156AAD982128C03586C4CC6EE676D4D /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */;
+			buildConfigurationList = 38812C3863C2BBE924CFA6A46103F87D /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */;
 			buildPhases = (
-				024C91DDEED844BB346F6A2A8FA03428 /* Headers */,
-				D4565869C18C569CACD5FDF9B54E9DBA /* Sources */,
-				556ECC8B00B28CA7A95F657066E89B28 /* Frameworks */,
-				D624EF2DACD65F6C988423C9DC3E1779 /* Resources */,
+				0885DC186AD4060EA2F6EAC65C2106A5 /* Headers */,
+				E654B3283A6891DC434E8F41ACA14698 /* Sources */,
+				21C26D95CE30AFFE0DB61B5FF27D66F0 /* Frameworks */,
+				569C407D1B0297CBEC05FBB9F0DE0E97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3C6A43924F8ACBD788D920E037D217CC /* PBXTargetDependency */,
-				C1D88D246A71B3865E768271656ABC81 /* PBXTargetDependency */,
+				EF6B939E1436D54B054006A33A4C0B39 /* PBXTargetDependency */,
+				2A31FC9D383297A4572052ABFA12F4A2 /* PBXTargetDependency */,
+				13C54345888CA29684CFACD1760F957E /* PBXTargetDependency */,
 			);
 			name = "Pods-OnepayIPG_Example";
 			productName = "Pods-OnepayIPG_Example";
@@ -626,21 +733,40 @@
 		};
 		A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2952B3BD4155CBDBEAEFC21F9E8E69DD /* Build configuration list for PBXNativeTarget "OnepayIPG" */;
+			buildConfigurationList = 8FA2590E0EB0777F635CA3472503CE61 /* Build configuration list for PBXNativeTarget "OnepayIPG" */;
 			buildPhases = (
-				BE010E0E260F39AC8DB2FADBFEDC60D2 /* Headers */,
-				18423664E365DF3B79D4CD79AC4B4319 /* Sources */,
-				D31976A24F27C37BC71EC1AF6B3A4E89 /* Frameworks */,
-				53ABE180BA330626510D55A266A527E8 /* Resources */,
+				260891E5AC31C4706F095DE05CC9BC36 /* Headers */,
+				3138E018165B1DA103B4393335FF71B4 /* Sources */,
+				68B638ADB94BF2A912CCCAE0041450BB /* Frameworks */,
+				A00A579891DD84172C402818867D757F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				478DF133A91FC624F07785123D4FE87A /* PBXTargetDependency */,
+				230ADFDBBD0B9EE163C0DF9D8E7E3D16 /* PBXTargetDependency */,
+				FCF6AF5F384083F28B34DC15A199DF27 /* PBXTargetDependency */,
 			);
 			name = OnepayIPG;
 			productName = OnepayIPG;
 			productReference = 27094137B9EFF7C2D66F940E1EAA4501 /* OnepayIPG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9551F217E295C55FDF5DDD2FDFC7D1A /* MGPSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6DB15B5A9F663C3D693516695A1CF5 /* Build configuration list for PBXNativeTarget "MGPSDK" */;
+			buildPhases = (
+				FAF37C327E4F8863CC40ED3F7B93CDA6 /* Headers */,
+				6EC2EEDA21DA98D231DDE3BED917B912 /* Sources */,
+				D0EEB731DBB9958097813B66BD286313 /* Frameworks */,
+				0C90067BB06FF4D46CDB762EF3525BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGPSDK;
+			productName = MGPSDK;
+			productReference = F78F3B552BFFC5C766D816B02873DAE5 /* MGPSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -679,11 +805,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7387D4399825E9EF773898F33492DBC7 /* Products */;
+			productRefGroup = DA654DABC70E38FEDD3374B45197373C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				B9551F217E295C55FDF5DDD2FDFC7D1A /* MGPSDK */,
 				A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */,
 				654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */,
 				22B23E22484E83C9E0D4E401469C1480 /* Pods-OnepayIPG_Tests */,
@@ -692,18 +819,32 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53ABE180BA330626510D55A266A527E8 /* Resources */ = {
+		0C90067BB06FF4D46CDB762EF3525BA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B951EE5D0EC8CB26E00D2E616642E314 /* Inter-Regular.ttf in Resources */,
-				5ACA31092D39220148C68A43308E019C /* Media.xcassets in Resources */,
-				7E617B0B930A6CF8C9FDE9564B42F416 /* OnepayIPG.storyboard in Resources */,
-				118EDAD866F0986D6DDA67DE75ED5186 /* Poppins-Light.ttf in Resources */,
-				760A16F6087EAAE4E3BD5C1485793F38 /* Poppins-Medium.ttf in Resources */,
-				F2E76B6BDFB6A0BBD14AE56C00C79FFF /* Poppins-Regular.ttf in Resources */,
-				6A3EA367BEA31BD4E1974BD2FDE1A079 /* Poppins-SemiBold.ttf in Resources */,
-				3CE6A4190ECE393649CEB9EE343038F6 /* Poppins-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569C407D1B0297CBEC05FBB9F0DE0E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00A579891DD84172C402818867D757F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFFAD84C69D8730BECE41E8FB4B18F /* Inter-Regular.ttf in Resources */,
+				E0F69DD76E854FD1B2325974001F4F84 /* Media.xcassets in Resources */,
+				57C0B5A7CE5ACD3F8FEB1BA139120E25 /* OnepayIPG.storyboard in Resources */,
+				43A61168615485F96E5BE27C1F89F4C2 /* Poppins-Light.ttf in Resources */,
+				7FEF07436109E116D49B007DED88C6A3 /* Poppins-Medium.ttf in Resources */,
+				33C746598E588F2BBAF429037F5E92B5 /* Poppins-Regular.ttf in Resources */,
+				43E1621A89D23224E1011AC0FB773BEB /* Poppins-SemiBold.ttf in Resources */,
+				03516F7F70785A84702BD8FF97C25FE5 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,44 +862,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D624EF2DACD65F6C988423C9DC3E1779 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18423664E365DF3B79D4CD79AC4B4319 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3C2EF27B532BD6A1640B845E46E2487 /* 3DSRequestData.swift in Sources */,
-				1A032444EBB3594763FB927A95011F77 /* Alert.swift in Sources */,
-				1EFE1F81C7FEBA4D7EA5A792BC003108 /* APIService.swift in Sources */,
-				76F0290BD6569238CF4542CA29EC8CF8 /* BaseService.swift in Sources */,
-				0A2D02B03CA5E6E091119AF6ED7ADCC8 /* CardFormatter.swift in Sources */,
-				1F725557D93D698601246CD08B53A298 /* CardTypes.swift in Sources */,
-				26BFB77B62CDD155DEB799F531EB687A /* Configurations.swift in Sources */,
-				CD3E154C90658B55C77AB7506A7D79F8 /* Constant.swift in Sources */,
-				1E13CBCBC2560FF4FB897631C2017EC7 /* DataWrapper.swift in Sources */,
-				713FF42E4C9B1B302277BC87A112897C /* FrimiVC.swift in Sources */,
-				7CCCFF906F99A5C15271078726CDFE01 /* GatewayMainVC.swift in Sources */,
-				EF2A321D2875A7EE00FB92DC /* ProgressView.swift in Sources */,
-				DA0FE4521514E7619BFEDEBD5EF7218B /* IPGErrors.swift in Sources */,
-				66E51E043D48A9D5181291D77DCD770D /* MainPVC.swift in Sources */,
-				E3A489990C62159EE511A99E88117957 /* OnepayIPG-dummy.m in Sources */,
-				ED1759977616E1E384E7E6F227EF8F42 /* OnepayIPGDelegate.swift in Sources */,
-				1EEDA6351ED9583B9CF8BE1C577EF0D7 /* PaymentOptions.swift in Sources */,
-				E680A5E4A260B6022F22AAC6D9B5CF12 /* UtilityExtension.swift in Sources */,
-				5F1B8D30A2728786F574CB915E3F1ECE /* VisaMasterVC.swift in Sources */,
-				959D654F44473B06F77FC7D13201CC89 /* VisaMasterViewModel.swift in Sources */,
-				0A26F39D9236B74CE6D7DEA16CF70EEC /* VMFieldsConfig.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2192349C522246B972BAF9D47CC18549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,6 +909,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3138E018165B1DA103B4393335FF71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF81BED435D90D2A6ADB0827882AB94E /* 3DSRequestData.swift in Sources */,
+				799F2770B0C4C80203DB4ED679E4591E /* Alert.swift in Sources */,
+				A5CEC1F2CE98F46DAF5C70B1F163775A /* APIService.swift in Sources */,
+				947EC34D09E012A87570E665A8920197 /* BaseService.swift in Sources */,
+				DE0363A3B0DA1C2C2E68AE8B075A0512 /* CardFormatter.swift in Sources */,
+				EFDB436C2878512F00DBFFF3 /* 3DSAuthResult.swift in Sources */,
+				58CBA96BE302E4EE73226DC560C51EAD /* CardTypes.swift in Sources */,
+				AC8847D2A637ACA14F3CC693AFFB6BD1 /* Configurations.swift in Sources */,
+				711CBC8E5646BB3715BFC06D0B496924 /* Constant.swift in Sources */,
+				F8035C263316C317CC38025171DA2836 /* DataWrapper.swift in Sources */,
+				133FA187567BA6E665343E105BFF4602 /* FrimiVC.swift in Sources */,
+				38DAD65C968C5B6A422155F263A7B874 /* GatewayMainVC.swift in Sources */,
+				5B2A14050DBDA5D48826FAC338E3A54B /* IPGErrors.swift in Sources */,
+				09BF7797C8B96ECA1149A7A1E95B1062 /* MainPVC.swift in Sources */,
+				2012A6BFA7C92AB186433AFC597B8E9F /* OnepayIPG-dummy.m in Sources */,
+				CCAAF96221A9B6B79E87D313AB437274 /* OnepayIPGDelegate.swift in Sources */,
+				4333D11BB2B00D774732243745E7B214 /* PaymentOptions.swift in Sources */,
+				4E74798F70ACECF1E4EDEE90C84F8DA5 /* ProgressView.swift in Sources */,
+				8DA5BF4BCACE237E313F0205D2A87BAF /* UtilityExtension.swift in Sources */,
+				2307A32230E461D638C3FE4DA571BFA5 /* VisaMasterVC.swift in Sources */,
+				79DFBC6373B1928FF7590FCB37A3E7F5 /* VisaMasterViewModel.swift in Sources */,
+				CFD685D2BB120C721DBBEEDFD2CA7CC6 /* VMFieldsConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC2EEDA21DA98D231DDE3BED917B912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDA58C049B13BAF8C93CF2CEF1FB605 /* BuildConfig.swift in Sources */,
+				38A3A8AF39590F3F39E7D714B12B69C6 /* Coding.swift in Sources */,
+				AEC5AE0F43DC467ED029A1AA462E252E /* Gateway+URLSessionDelegate.swift in Sources */,
+				FFC065DB2B9F64F5CE3D8BACC4C6F4EA /* Gateway.swift in Sources */,
+				D0D49C1FA04609396571D04A00066D76 /* Gateway3DSecureViewController.swift in Sources */,
+				33C1B24272D88C24E065A2B12A6B4B4B /* GatewayError.swift in Sources */,
+				23F6E9045D443304F9873DACD8058B28 /* GatewayMap.swift in Sources */,
+				EFFEAE83BC549ACA5B3330319C894934 /* GatewayRegion.swift in Sources */,
+				72589B8F338DE0B7086840BD9B94B7CB /* GatewayResult.swift in Sources */,
+				C6594B814923B6D300DCD934E3CEC1FC /* HTTPMethod.swift in Sources */,
+				F3D63DF0DE2F95F3382EA2D97093F742 /* MGPSDK-dummy.m in Sources */,
+				EFF4E902642A66DB182897C47E8C166F /* MPGSDK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF72648F1DCFD006A08A6D9977D61B1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -811,78 +965,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4565869C18C569CACD5FDF9B54E9DBA /* Sources */ = {
+		E654B3283A6891DC434E8F41ACA14698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81EC6F5DCBDEAEE22A670256FB3B3B91 /* Pods-OnepayIPG_Example-dummy.m in Sources */,
+				F5819F7D9700F097600F1351820769A9 /* Pods-OnepayIPG_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C6A43924F8ACBD788D920E037D217CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = A9A4BA6F89BD9C83EEFF8237F2E12CFB /* PBXContainerItemProxy */;
-		};
-		478DF133A91FC624F07785123D4FE87A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 8E352D3767DB634C7C0D6413B1862100 /* PBXContainerItemProxy */;
-		};
-		C1D88D246A71B3865E768271656ABC81 /* PBXTargetDependency */ = {
+		13C54345888CA29684CFACD1760F957E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OnepayIPG;
 			target = A0A79E3C1E2694A36DDFDEF1270515D9 /* OnepayIPG */;
-			targetProxy = 5E6331C4BD68C4C4A6482D318906E181 /* PBXContainerItemProxy */;
+			targetProxy = 888EE7BF17908695E6DD1CE3712A4FB5 /* PBXContainerItemProxy */;
 		};
-		F958102A0CCA8116D691137BAC50B98B /* PBXTargetDependency */ = {
+		230ADFDBBD0B9EE163C0DF9D8E7E3D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 0EC62ACA2E9384247F24717D17DBEABF /* PBXContainerItemProxy */;
+		};
+		2A31FC9D383297A4572052ABFA12F4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGPSDK;
+			target = B9551F217E295C55FDF5DDD2FDFC7D1A /* MGPSDK */;
+			targetProxy = 4CFD1A2627706F9F4C13A77D7E190578 /* PBXContainerItemProxy */;
+		};
+		BD63ACBCA12F785679FBB001E0E58623 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OnepayIPG_Example";
 			target = 654970528F0A17A844BD1E147B10B8DB /* Pods-OnepayIPG_Example */;
-			targetProxy = 5E4C37FAE5126A61CAE1BEA3094A281C /* PBXContainerItemProxy */;
+			targetProxy = A77CC01234842602B4B67C1BA6D53989 /* PBXContainerItemProxy */;
+		};
+		EF6B939E1436D54B054006A33A4C0B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = E42026D68797226BB83197DE943DE42D /* PBXContainerItemProxy */;
+		};
+		FCF6AF5F384083F28B34DC15A199DF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGPSDK;
+			target = B9551F217E295C55FDF5DDD2FDFC7D1A /* MGPSDK */;
+			targetProxy = E0A6ED75A97DE129648ED2F66421C230 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06C311752DAEC4321B86A824566D27EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF113AB29A4E50878272B26079F6CF4E /* OnepayIPG.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
-				PRODUCT_MODULE_NAME = OnepayIPG;
-				PRODUCT_NAME = OnepayIPG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -947,109 +1079,7 @@
 			};
 			name = Debug;
 		};
-		2F5655EEE8BBF2C8340FE4F7B9B2A73C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		36281A91042F723E86620D5F971ABFAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4BBD5A26D7F07A0AFF583D8CFD4EB968 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8207696BBD1CFDC7ACA73338C8DF9A1C /* Release */ = {
+		2198D9BB5ABA2FDB63B066147D41AACE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C34C8A7B7E04EE795B835CB84FC3A89E /* Pods-OnepayIPG_Example.release.xcconfig */;
 			buildSettings = {
@@ -1084,6 +1114,242 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2B573182287FD993B257821DC90DB6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF113AB29A4E50878272B26079F6CF4E /* OnepayIPG.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EB2A60DC4AD1B030A1F6CF022D9510D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264D05077F526AF2C1137AAF7BC1B129 /* MGPSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGPSDK/MGPSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGPSDK/MGPSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGPSDK/MGPSDK.modulemap";
+				PRODUCT_MODULE_NAME = MGPSDK;
+				PRODUCT_NAME = MGPSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F5655EEE8BBF2C8340FE4F7B9B2A73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B10780B2B335448C4CF91BE93DC39E4 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36281A91042F723E86620D5F971ABFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DAD4DA65D9B33BD89E2312E445C1A1 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37ADFFDD44368763BF5CBAC58849A2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE712FBE2A0F9520E8497BE4529860C /* MGPSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGPSDK/MGPSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGPSDK/MGPSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGPSDK/MGPSDK.modulemap";
+				PRODUCT_MODULE_NAME = MGPSDK;
+				PRODUCT_NAME = MGPSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43455A8A91C6CD88E40863399A83A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43F7E5F70B5BA852C9B10BBBF2BBE0C /* Pods-OnepayIPG_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnepayIPG_Example/Pods-OnepayIPG_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97D0DE9D4C79C2D6B5615A5ACBC45A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF1553A03C5646AB471DDD61A2072F5 /* OnepayIPG.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
+				PRODUCT_MODULE_NAME = OnepayIPG;
+				PRODUCT_NAME = OnepayIPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A8A96F7FA8E00621AB99CF774924F4A2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1156,39 +1422,6 @@
 			};
 			name = Debug;
 		};
-		E6432E5A3EEE54C36AD71A9D29FF871D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFF1553A03C5646AB471DDD61A2072F5 /* OnepayIPG.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OnepayIPG/OnepayIPG-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnepayIPG/OnepayIPG-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnepayIPG/OnepayIPG.modulemap";
-				PRODUCT_MODULE_NAME = OnepayIPG;
-				PRODUCT_NAME = OnepayIPG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1251,11 +1484,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2952B3BD4155CBDBEAEFC21F9E8E69DD /* Build configuration list for PBXNativeTarget "OnepayIPG" */ = {
+		2C6DB15B5A9F663C3D693516695A1CF5 /* Build configuration list for PBXNativeTarget "MGPSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6432E5A3EEE54C36AD71A9D29FF871D /* Debug */,
-				06C311752DAEC4321B86A824566D27EB /* Release */,
+				37ADFFDD44368763BF5CBAC58849A2D1 /* Debug */,
+				2EB2A60DC4AD1B030A1F6CF022D9510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38812C3863C2BBE924CFA6A46103F87D /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43455A8A91C6CD88E40863399A83A05F /* Debug */,
+				2198D9BB5ABA2FDB63B066147D41AACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1269,11 +1511,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B156AAD982128C03586C4CC6EE676D4D /* Build configuration list for PBXNativeTarget "Pods-OnepayIPG_Example" */ = {
+		8FA2590E0EB0777F635CA3472503CE61 /* Build configuration list for PBXNativeTarget "OnepayIPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BBD5A26D7F07A0AFF583D8CFD4EB968 /* Debug */,
-				8207696BBD1CFDC7ACA73338C8DF9A1C /* Release */,
+				97D0DE9D4C79C2D6B5615A5ACBC45A04 /* Debug */,
+				2B573182287FD993B257821DC90DB6C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

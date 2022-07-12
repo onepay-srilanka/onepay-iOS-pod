@@ -8,14 +8,14 @@
 import UIKit
 import Alamofire
 
-protocol KeyboardManagementDelegate: Any{
+protocol MainManagementDelegate: Any{
     
     func onKeyboardWillHide()
     func onKeyboardWillShow()
+    func close()
 }
 
-public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
-
+public class GatewayMainVC: UIViewController, MainManagementDelegate {
     
     @IBOutlet weak var lblAmount: UILabel!
     @IBOutlet weak var viewVisaMaster: UIView!
@@ -25,7 +25,7 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
     static let progress = ProgressHUD(text: "processing")
      
     private var onepayIPGDelegate: OnepayIPGDelegate? = nil
-    private var initData: IPGInit? = nil
+    private var initData: OnepayIPGInit? = nil
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
         self.view.endEditing(true)
     }
     
-    public func setInitData(ipgInitData: IPGInit){
+    public func setInitData(ipgInitData: OnepayIPGInit){
         
         self.initData = ipgInitData
     }
@@ -55,21 +55,17 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
             
                 if let initializeData = self.initData{
                     
-                    if initializeData.hashKey.isEmpty{
-                        
-                        fatalError(IPGError.hashKeyError.rawValue)
-                    }
-                  
-                    lblAmount.text =  String(format: "%.2f LKR", initializeData.amount)
+                    lblAmount.text =  String(format: "%.2f LKR", initializeData.proDetails.amount)
                     destination.initData = initializeData
-                    Constant.token = initializeData.token
-                    Constant.hashKey = initializeData.hashKey
+                    Constant.token = initializeData.secDetails.token
+                    Constant.hashKey = initializeData.secDetails.hashKey
                 }else{
                     
                     fatalError(IPGError.initError.rawValue)
                 }
                 destination.onepayIPGDelegate = onepayIPGDelegate
-                destination.keyboardNotificationDelegate = self
+                destination.mainVCManagementDelegate = self
+                
             }
         
     }
@@ -85,5 +81,10 @@ public class GatewayMainVC: UIViewController, KeyboardManagementDelegate {
             self.view.frame.origin.y = -60
             self.view.layoutIfNeeded()
         })
+    }
+    
+    func close() {
+        
+        self.dismiss(animated: true, completion: nil)
     }
 }

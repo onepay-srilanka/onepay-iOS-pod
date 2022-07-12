@@ -10,21 +10,21 @@ import UIKit
 
 enum IPGError: String, Error{
     
-    case invalidToken = "You arn't authorized for this service"
+    case invalidToken = "token not found"
     case hashKeyError = "hash key not found"
     case initError = "IPG init data not found"
-    case referenceEmpty = "Reference could not be found in Init data. please check the mandatory fields"
-    case appIDEmpty  = "App Id could not be found in Init data. please check the mandatory fields"
-    case fnameEmpty = "First name in Init data cannot be empty. please check the mandatory fields"
-    case lnameEmpty = "Last name in Init data cannot be empty. please check the mandatory fields"
-    case zeroAmount = "Amount should be greater than 0.00"
-    case invalidEmaill = "Your provided email isn't invalid. please re-check the email in Init data"
-    case invalidPhone = "Your provided phone number isn't invalid. please re-check the phone number in Init data"
+    case referenceEmpty = "reference id not found"
+    case appIDEmpty  = "app id not found"
+    case fnameEmpty = "first name not found"
+    case lnameEmpty = "last name not found"
+    case zeroAmount = "not a valid amount"
+    case invalidEmaill = "invalid email"
+    case invalidPhone = "invalid phone"
     case emptyName = "Name on card cannot be empty"
     case invalidCardNumber = "Invalid card number"
     case invalidExpireDate = "Invalid expire date"
     case invalidCVV = "invalid CVV"
-    case transOrderEmptyValues = "Transaction Order must not contains empty values. check your transation order details and retry"
+    case transOrderEmptyValues = "transaction Order contains inavalid values"
     
 }
 
