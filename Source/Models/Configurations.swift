@@ -21,15 +21,13 @@ public struct UserDetails{
     let lastName: String
     let phone: String
     let email: String
-    let reference: String
     
-    public init(firstName: String, lastName: String, phone: String, email: String, reference: String){
+    public init(firstName: String, lastName: String, phone: String, email: String){
         
         self.firstName          = firstName
         self.lastName           = lastName
         self.phone              = phone
         self.email              = email
-        self.reference          = reference
     }
 }
 
@@ -51,12 +49,14 @@ public struct ProductDetails{
     
     let amount: Double
     let currency: CurrencyTypes
+    let reference: String
     let transactionOrder: [TransactionOrder]?
 
-    public init(amount: Double, curency: CurrencyTypes, transactionOrder: [TransactionOrder]? = nil){
+    public init(amount: Double, curency: CurrencyTypes, reference: String, transactionOrder: [TransactionOrder]? = nil){
         
         self.amount             = amount
         self.currency           = curency
+        self.reference          = reference
         self.transactionOrder   = transactionOrder
     }
     
@@ -125,11 +125,6 @@ public class IPGInitBuilder{
                 fatalError(IPGError.hashKeyError.rawValue)
             }
             
-            if user.reference.isEmpty{
-                
-                fatalError(IPGError.referenceEmpty.rawValue)
-            }
-            
             if user.firstName.isEmpty{
                 
                 fatalError(IPGError.fnameEmpty.rawValue)
@@ -153,6 +148,11 @@ public class IPGInitBuilder{
             if product.amount <= 0{
                 
                 fatalError(IPGError.zeroAmount.rawValue)
+            }
+            
+            if product.reference.isEmpty{
+                
+                fatalError(IPGError.referenceEmpty.rawValue)
             }
             
             if let transOrder = product.transactionOrder{
