@@ -16,7 +16,7 @@ public struct OnepayIPGSuccess{
     public let phone: String
     public let reference: String
     public let email: String
-    public let amount: String
+    public let amount: Float
     public let currency: String
 }
 

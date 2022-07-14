@@ -79,7 +79,7 @@ public struct Configurations{
  */
 public struct Product{
     
-    let amount: String
+    let amount: Float
     let currency: CurrencyTypes
     let reference: String
     let transactionOrder: [TransactionOrder]?
@@ -95,7 +95,7 @@ public struct Product{
      - parameter transactionOrder: transactionOrder should be array of TransactionOrder. This parameter is optional.
      
      */
-    public init(amount: String, currency: CurrencyTypes, reference: String, transactionOrder: [TransactionOrder]? = nil){
+    public init(amount: Float, currency: CurrencyTypes, reference: String, transactionOrder: [TransactionOrder]? = nil){
         
         self.amount             = amount
         self.currency           = currency
@@ -223,7 +223,7 @@ public class IPGInitBuilder{
                 fatalError(IPGError.invalidPhone.rawValue)
             }
             
-            if product.amount.isEmpty{
+            if product.amount < 0.0{
                 
                 fatalError(IPGError.zeroAmount.rawValue)
             }

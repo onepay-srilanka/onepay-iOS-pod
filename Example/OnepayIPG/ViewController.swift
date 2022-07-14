@@ -45,7 +45,7 @@ class ViewController: UIViewController, OnepayIPGDelegate {
             hashKey: "XGFM1189E174E887371B3"))
         
         builder.setProduct(Product(
-            amount: "1000.58",
+            amount: 1000.58,
             currency: .LKR,
             reference: "0000000000060"))
         
