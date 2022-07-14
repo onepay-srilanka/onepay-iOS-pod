@@ -11,7 +11,7 @@ import Alamofire
 
 struct IPGAPI{
     
-    static func get3DS(data: _3DSRequestData, completed: @escaping (Result<_3DS, ApiErrors>) -> Void){
+    static func get3DS(data: _3DSRequestData, completed: @escaping (Result<_3DS, APIErrors>) -> Void){
         
         let hashData = [
             "app_id": data.appId,

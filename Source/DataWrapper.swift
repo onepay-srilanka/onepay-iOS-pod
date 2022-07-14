@@ -58,7 +58,7 @@ class DataWrapper{
     }
     
     
-    func decodeData<T: Decodable>(data: Data?, modelClass: T.Type, completed: @escaping (Result<T, ApiErrors>)->Void)  {
+    func decodeData<T: Decodable>(data: Data?, modelClass: T.Type, completed: @escaping (Result<T, APIErrors>)->Void)  {
         
         if let resultData = data{
         

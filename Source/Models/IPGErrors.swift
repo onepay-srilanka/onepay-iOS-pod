@@ -10,25 +10,27 @@ import UIKit
 
 enum IPGError: String, Error{
     
-    case invalidToken = "token not found"
-    case hashKeyError = "hash key not found"
+    case invalidToken = "Token not found"
+    case hashKeyError = "Hash key not found"
     case initError = "IPG init data not found"
-    case referenceEmpty = "reference id not found"
-    case appIDEmpty  = "app id not found"
-    case fnameEmpty = "first name not found"
-    case lnameEmpty = "last name not found"
-    case zeroAmount = "not a valid amount"
-    case invalidEmail = "invalid email"
-    case invalidPhone = "invalid phone"
+    case referenceEmpty = "Reference id not found"
+    case appIDEmpty  = "App id not found"
+    case fnameEmpty = "First name not found"
+    case lnameEmpty = "Last name not found"
+    case zeroAmount = "Invalid amount"
+    case invalidLKRAmount = "LKR minimum amount should be LKR 100"
+    case invalidUSDAmount = "LKR minimum amount should be USD 1"
+    case invalidEmail = "Invalid email"
+    case invalidPhone = "Invalid phone"
     case emptyName = "Name on card cannot be empty"
     case invalidCardNumber = "Invalid card number"
     case invalidExpireDate = "Invalid expire date"
-    case invalidCVV = "invalid CVV"
-    case transOrderEmptyValues = "transaction Order contains inavalid values"
+    case invalidCVV = "Invalid CVV"
+    case transOrderEmptyValues = "Transaction order contains invalid values"
     
 }
 
-enum ApiErrors: String, Error{
+enum APIErrors: String, Error{
     
     case encryptionError  = "Unable to encrypt to json"
     case jsonEncodeError  = "unable to encode the data"

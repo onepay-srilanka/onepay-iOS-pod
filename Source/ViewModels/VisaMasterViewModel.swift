@@ -62,7 +62,7 @@ class VisaMasterViewModel{
         completion(.success(data))
     }
     
-    func validateAndGet3DS(reqData: _3DSRequestData, completion: @escaping (Result<_3DS, ApiErrors>) -> Void){
+    func validateAndGet3DS(reqData: _3DSRequestData, completion: @escaping (Result<_3DS, APIErrors>) -> Void){
         
         IPGAPI.get3DS(data: reqData){ result in
             

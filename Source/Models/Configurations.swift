@@ -187,6 +187,7 @@ public class IPGInitBuilder{
         
         if let user = self.user, let security = self.security, let product = self.product{
             
+            //SDK Configuration validation
             if security.token.isEmpty{
                 
                 fatalError(IPGError.invalidToken.rawValue)
@@ -202,6 +203,7 @@ public class IPGInitBuilder{
                 fatalError(IPGError.hashKeyError.rawValue)
             }
             
+            //Customer details validation
             if user.firstName.isEmpty{
                 
                 fatalError(IPGError.fnameEmpty.rawValue)
@@ -222,9 +224,26 @@ public class IPGInitBuilder{
                 fatalError(IPGError.invalidPhone.rawValue)
             }
             
+            //Product detail validation
             if product.amount < 0.0{
                 
                 fatalError(IPGError.zeroAmount.rawValue)
+            }
+            
+            if product.currency == CurrencyTypes.LKR {
+                
+                if product.amount < 100{
+                    
+                    fatalError(IPGError.invalidLKRAmount.rawValue)
+                }
+                
+            } else if product.currency == .USD {
+                
+                if product.amount < 1{
+                    
+                    fatalError(IPGError.invalidUSDAmount.rawValue)
+                }
+                
             }
             
             if product.reference.isEmpty{
