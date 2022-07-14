@@ -18,10 +18,10 @@ protocol MainManagementDelegate: Any{
 public class GatewayMainVC: UIViewController, MainManagementDelegate {
     
     @IBOutlet weak var lblAmount: UILabel!
-    @IBOutlet weak var viewVisaMaster: UIView!
+    @IBOutlet weak var ipgView: UIView!
     
     public static let CONTAINS_STORYBOARD = Constant.MainStoryboard
-    public static let MAINGATEWAY         = Constant.MainGatewayVC
+    public static let MAIN_GATEWAY         = Constant.MainGatewayVC
     static let progress = ProgressHUD(text: "processing")
      
     private var onepayIPGDelegate: OnepayIPGDelegate? = nil
@@ -30,7 +30,7 @@ public class GatewayMainVC: UIViewController, MainManagementDelegate {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewVisaMaster.layer.cornerRadius = 8
+        ipgView.layer.cornerRadius = 8
         view.addSubview(GatewayMainVC.progress)
         GatewayMainVC.progress.hide()
     }

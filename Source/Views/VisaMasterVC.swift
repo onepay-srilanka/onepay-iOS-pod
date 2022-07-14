@@ -178,7 +178,15 @@ class VisaMasterVC: UIViewController {
             case .completed(let gatewayResult):
                 
                 let transDetails = self!.initData!
-                let success = OnepayIPGSuccess(status: gatewayResult.status, description: gatewayResult.description, firstName: transDetails.userDetails.firstName, lastName: transDetails.userDetails.lastName, phnoe: transDetails.userDetails.phone, reference: transDetails.proDetails.reference, email: transDetails.userDetails.email, amount: Double(transDetails.proDetails.amount), currency: transDetails.proDetails.currency.rawValue)
+                let success = OnepayIPGSuccess(status: gatewayResult.status,
+                                               description: gatewayResult.description,
+                                               firstName: transDetails.userDetails.firstName,
+                                               lastName: transDetails.userDetails.lastName,
+                                               phone: transDetails.userDetails.phone,
+                                               reference: transDetails.proDetails.reference,
+                                               email: transDetails.userDetails.email,
+                                               amount: transDetails.proDetails.amount,
+                                               currency: transDetails.proDetails.currency.rawValue)
         
                 self!.delegate?.onPaymentSuccess(response: success)
                 self!.mainVCManagemnetDelegate?.close()

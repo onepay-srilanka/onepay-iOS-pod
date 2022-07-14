@@ -13,10 +13,10 @@ public struct OnepayIPGSuccess{
     public let description: String
     public let firstName: String
     public let lastName: String
-    public let phnoe: String
+    public let phone: String
     public let reference: String
     public let email: String
-    public let amount: Double
+    public let amount: String
     public let currency: String
 }
 
