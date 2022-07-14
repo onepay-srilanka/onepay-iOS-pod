@@ -9,7 +9,7 @@
 import UIKit
 import OnepayIPG
 
-class ExampleViewController: UIViewController, OnepayIPGDelegate {
+class ExampleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +51,9 @@ class ExampleViewController: UIViewController, OnepayIPGDelegate {
         
         return builder.build()
     }
-    
+}
+
+extension ExampleViewController: OnepayIPGDelegate {
     
     func onPaymentSuccess(response: OnepayIPGSuccess) {
         
@@ -63,4 +65,3 @@ class ExampleViewController: UIViewController, OnepayIPGDelegate {
         print(error)
     }
 }
-
