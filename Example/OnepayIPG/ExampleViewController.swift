@@ -9,7 +9,7 @@
 import UIKit
 import OnepayIPG
 
-class ViewController: UIViewController, OnepayIPGDelegate {
+class ExampleViewController: UIViewController, OnepayIPGDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()

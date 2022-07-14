@@ -35,7 +35,7 @@ public struct Customer{
      
      - parameter firstName: Customer first name should be string. No spaces allow.
      - parameter lastName: Customer last name should be string. No spaces allow.
-     - parameter phone: Customer phone should be string. Phone number should follow this formate "+947********".
+     - parameter phone: Customer phone should be string. Phone number should follow this format "+947********".
      - parameter email: Customer email should be a string. No spaces allow.
      
      */
@@ -89,7 +89,7 @@ public struct Product{
      You can insert the purchased product details here related to the payment gateway.
      
      
-     - parameter amount: amount should be string. The amount format should be like "10.00"; the minimum amount is LKR 10.00 and USD 1.00.
+     - parameter amount: amount should be Float. The amount format should be like 10.00; the minimum amount is LKR 10.00 and USD 1.00.
      - parameter currency: Currency should be CurrencyTypes data type.
      - parameter reference: reference should be string.  Reference should have a minimum of ten characters. Spaces are not allowed.
      - parameter transactionOrder: transactionOrder should be array of TransactionOrder. This parameter is optional.
@@ -183,7 +183,6 @@ public class IPGInitBuilder{
      - returns: OnepayIPGInit
      
      */
-    
     public func build() -> OnepayIPGInit{
         
         if let user = self.user, let security = self.security, let product = self.product{
